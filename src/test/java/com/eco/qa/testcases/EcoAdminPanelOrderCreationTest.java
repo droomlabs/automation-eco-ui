@@ -73,8 +73,8 @@ public class EcoAdminPanelOrderCreationTest extends TestBase{
 	  NRP.enterCoverageAreaOrCapacity("10");
 	  NRP.selectSwabTest("Not available");
 	  NRP.enterSwabCount("1");
-	  NRP.selectTimeslot1("29/10/2020");
-	  NRP.selectTimeslot2("30/10/2020");
+	  NRP.selectTimeslot1("25/2/2021");
+	  NRP.selectTimeslot2("26/2/2021");
 	  OMP=NRP.pressSubmit();
 	  OMP.assignTechnician("2282");
 	  

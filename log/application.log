@@ -1,49 +1,37 @@
-[INFO ] 2021-01-01 16:03:03.524 TestBase:84 - Application Started
-[INFO ] 2021-01-01 16:03:29.314 EcoAdminLogin:21 - user name entered
-[INFO ] 2021-01-01 16:03:29.560 EcoAdminLogin:26 - password entered
-[INFO ] 2021-01-01 16:03:39.648 EcoAdminLogin:31 - main login button clicked
-[INFO ] 2021-01-01 16:03:39.735 Welcomepage:21 - successful login
-[INFO ] 2021-01-01 16:03:40.524 Welcomepage:32 - OrderManagement button clicked
-[INFO ] 2021-01-01 16:06:16.995 TestBase:84 - Application Started
-[INFO ] 2021-01-01 16:06:30.738 EcoAdminLogin:21 - user name entered
-[INFO ] 2021-01-01 16:06:30.985 EcoAdminLogin:26 - password entered
-[INFO ] 2021-01-01 16:06:39.815 EcoAdminLogin:31 - main login button clicked
-[INFO ] 2021-01-01 16:06:39.915 Welcomepage:21 - successful login
-[INFO ] 2021-01-01 16:06:45.059 Welcomepage:32 - OrderManagement button clicked
-[INFO ] 2021-01-01 16:06:46.400 OrderManagementPage:26 - RaiseNewRequest button clicked
-[INFO ] 2021-01-01 16:06:46.712 NewRequestPage:51 - Vendor selcted
-[INFO ] 2021-01-01 16:06:46.951 NewRequestPage:56 - customername entered
-[INFO ] 2021-01-01 16:06:47.158 NewRequestPage:61 - customer address entered
-[INFO ] 2021-01-01 16:06:47.351 NewRequestPage:66 - customer Pincode entered
-[INFO ] 2021-01-01 16:06:47.917 NewRequestPage:71 - customer phone entered
-[INFO ] 2021-01-01 16:06:48.255 NewRequestPage:76 - customer email entered
-[INFO ] 2021-01-01 16:06:48.566 NewRequestPage:81 - Service selcted
-[INFO ] 2021-01-01 16:06:48.593 NewRequestPage:83 - Pagescroll done
-[INFO ] 2021-01-01 16:06:54.018 NewRequestPage:88 - Vehicle selcted
-[INFO ] 2021-01-01 16:06:54.559 NewRequestPage:94 - SubCategory selcted
-[INFO ] 2021-01-01 16:06:54.772 NewRequestPage:99 - RportType selcted
-[INFO ] 2021-01-01 16:06:55.044 NewRequestPage:104 - CoverageAreaOrCapacity entered
-[INFO ] 2021-01-01 16:06:55.308 NewRequestPage:109 - SwabTest selcted
-[INFO ] 2021-01-01 16:06:55.529 NewRequestPage:114 - SwabCount entered
-[INFO ] 2021-01-01 16:06:55.551 NewRequestPage:119 - Pagescroll done
-[INFO ] 2021-01-01 16:11:35.203 TestBase:84 - Application Started
-[INFO ] 2021-01-01 16:11:50.150 EcoAdminLogin:21 - user name entered
-[INFO ] 2021-01-01 16:11:50.422 EcoAdminLogin:26 - password entered
-[INFO ] 2021-01-01 16:11:59.176 EcoAdminLogin:31 - main login button clicked
-[INFO ] 2021-01-01 16:11:59.319 Welcomepage:21 - successful login
-[INFO ] 2021-01-01 16:12:03.544 Welcomepage:32 - OrderManagement button clicked
-[INFO ] 2021-01-01 16:12:04.873 OrderManagementPage:26 - RaiseNewRequest button clicked
-[INFO ] 2021-01-01 16:12:05.255 NewRequestPage:51 - Vendor selcted
-[INFO ] 2021-01-01 16:12:05.533 NewRequestPage:56 - customername entered
-[INFO ] 2021-01-01 16:12:05.804 NewRequestPage:61 - customer address entered
-[INFO ] 2021-01-01 16:12:06.053 NewRequestPage:66 - customer Pincode entered
-[INFO ] 2021-01-01 16:12:06.300 NewRequestPage:71 - customer phone entered
-[INFO ] 2021-01-01 16:12:06.590 NewRequestPage:76 - customer email entered
-[INFO ] 2021-01-01 16:12:06.889 NewRequestPage:81 - Service selcted
-[INFO ] 2021-01-01 16:12:06.912 NewRequestPage:83 - Pagescroll done
-[INFO ] 2021-01-01 16:16:02.319 TestBase:84 - Application Started
-[INFO ] 2021-01-01 16:16:20.488 EcoAdminLogin:21 - user name entered
-[INFO ] 2021-01-01 16:16:20.776 EcoAdminLogin:26 - password entered
-[INFO ] 2021-01-01 16:16:29.520 EcoAdminLogin:31 - main login button clicked
-[INFO ] 2021-01-01 16:16:29.666 Welcomepage:21 - successful login
-[INFO ] 2021-01-01 16:16:31.397 Welcomepage:32 - OrderManagement button clicked
+[INFO ] 2021-02-11 12:03:59.318 TestBase:84 - Application Started
+[INFO ] 2021-02-11 12:04:12.799 EcoAdminLogin:21 - user name entered
+[INFO ] 2021-02-11 12:04:13.059 EcoAdminLogin:26 - password entered
+[INFO ] 2021-02-11 12:04:21.130 EcoAdminLogin:31 - main login button clicked
+[INFO ] 2021-02-11 12:04:21.210 Welcomepage:21 - successful login
+[INFO ] 2021-02-11 12:05:21.901 TestBase:84 - Application Started
+[INFO ] 2021-02-11 12:05:31.745 EcoAdminLogin:21 - user name entered
+[INFO ] 2021-02-11 12:05:32.015 EcoAdminLogin:26 - password entered
+[INFO ] 2021-02-11 12:05:38.675 EcoAdminLogin:31 - main login button clicked
+[INFO ] 2021-02-11 12:05:38.757 Welcomepage:21 - successful login
+[INFO ] 2021-02-11 12:12:24.218 TestBase:84 - Application Started
+[INFO ] 2021-02-11 12:12:31.797 EcoAdminLogin:21 - user name entered
+[INFO ] 2021-02-11 12:12:32.089 EcoAdminLogin:26 - password entered
+[INFO ] 2021-02-11 12:12:41.591 EcoAdminLogin:31 - main login button clicked
+[INFO ] 2021-02-11 12:12:41.679 Welcomepage:21 - successful login
+[INFO ] 2021-02-11 12:17:10.495 TestBase:84 - Application Started
+[INFO ] 2021-02-11 12:17:15.687 EcoAdminLogin:21 - user name entered
+[INFO ] 2021-02-11 12:17:15.984 EcoAdminLogin:26 - password entered
+[INFO ] 2021-02-11 12:17:22.630 EcoAdminLogin:31 - main login button clicked
+[INFO ] 2021-02-11 12:17:22.717 Welcomepage:21 - successful login
+[INFO ] 2021-02-11 12:17:29.481 Welcomepage:32 - OrderManagement button clicked
+[INFO ] 2021-02-11 12:17:31.045 OrderManagementPage:26 - RaiseNewRequest button clicked
+[INFO ] 2021-02-11 12:17:31.483 NewRequestPage:51 - Vendor selcted
+[INFO ] 2021-02-11 12:17:31.768 NewRequestPage:56 - customername entered
+[INFO ] 2021-02-11 12:17:32.072 NewRequestPage:61 - customer address entered
+[INFO ] 2021-02-11 12:17:32.338 NewRequestPage:66 - customer Pincode entered
+[INFO ] 2021-02-11 12:17:32.612 NewRequestPage:71 - customer phone entered
+[INFO ] 2021-02-11 12:17:32.961 NewRequestPage:76 - customer email entered
+[INFO ] 2021-02-11 12:17:33.273 NewRequestPage:81 - Service selcted
+[INFO ] 2021-02-11 12:17:33.291 NewRequestPage:83 - Pagescroll done
+[INFO ] 2021-02-11 12:17:38.614 NewRequestPage:88 - Vehicle selcted
+[INFO ] 2021-02-11 12:17:39.275 NewRequestPage:94 - SubCategory selcted
+[INFO ] 2021-02-11 12:17:39.508 NewRequestPage:99 - RportType selcted
+[INFO ] 2021-02-11 12:17:39.758 NewRequestPage:104 - CoverageAreaOrCapacity entered
+[INFO ] 2021-02-11 12:17:40.054 NewRequestPage:109 - SwabTest selcted
+[INFO ] 2021-02-11 12:17:40.294 NewRequestPage:114 - SwabCount entered
+[INFO ] 2021-02-11 12:17:40.316 NewRequestPage:119 - Pagescroll done
