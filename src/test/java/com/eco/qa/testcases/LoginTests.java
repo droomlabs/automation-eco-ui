@@ -80,10 +80,9 @@ public class LoginTests extends TestBase{
 	  
 	  loginPage.enterUserName("mitesh.karwa@gaadi.com");
 	  loginPage.enterPassword("invalid");
-	  loginPage.pressLoginButton2();
-	  
+	  loginPage.pressLoginButton2(); 
 	  String actualpouptext = loginPage.getPopupText() ;
-		String expectedpouptext = "Wrong password. Please enter the correct password and try again.";
+	  String expectedpouptext = "Wrong password. Please enter the correct password and try again.";
 		utils.log().info("actualpouptext:-"+actualpouptext);
 		//System.out.println(actualpouptext);
 		Assert.assertEquals(actualpouptext, expectedpouptext);

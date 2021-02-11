@@ -11,7 +11,7 @@ import com.qa.utils.TestUtils;
 public class Welcomepage extends EcoAdminLogin {
 	
 	@FindBy(xpath="/html/body/div[1]/div[1]/section[2]/h1") WebElement WelcomeText;
-	@FindBy(xpath="/html/body/div[1]/aside/section/ul/li[8]/a/span") WebElement OrderManagementButton;
+	@FindBy(xpath="//a[@href='/home']") WebElement OrderManagementButton;
 
 	TestUtils utils = new TestUtils();
 	
