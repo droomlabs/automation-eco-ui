@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
 <!-- Suite -->
-  <test name="Test">
+<test name="Testweb">
+    <classes>
+      <class name="com.eco.qa.testcases.EcoAdminPanelOrderCreationTest"/> 
+    </classes>
+  </test>
+  <test name="Testapp">
   <parameter name="platformName" value="Android"/>
   <parameter name="platformVersion" value="10 QKQ1.191014.001"/>
   <parameter name="deviceName" value="Redmi"/>
     <classes>
-      <class name="com.eco.qa.testcases.EcoAdminPanelOrderCreationTest"/>
-       <class name="com.eco.qa.testcases.GermShieldTreatmeElevatorTests"/>
-
+      <class name="com.eco.qa.testcases.GermShieldTreatmeElevatorTests"/> 
     </classes>
-  </test> <!-- Test -->
+  </test><!-- Test -->
 </suite> <!-- Suite -->

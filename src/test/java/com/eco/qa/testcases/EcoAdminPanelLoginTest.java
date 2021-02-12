@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import com.qa.eco.base.CommonInitialization;
 import com.qa.eco.base.TestBase;
+import com.qa.eco.base.TestBase2;
 import com.qa.eco.browser.pages.EcoAdminLogin;
 import com.qa.eco.pages.LoginPage;
 import com.qa.eco.pages.Services;
@@ -18,7 +19,7 @@ import java.lang.reflect.Method;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class EcoAdminPanelLoginTest extends TestBase{
+public class EcoAdminPanelLoginTest extends TestBase2{
 	EcoAdminLogin EAL ;
 	
 	TestUtils utils = new TestUtils();

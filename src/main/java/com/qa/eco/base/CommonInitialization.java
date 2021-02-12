@@ -1,13 +1,8 @@
 package com.qa.eco.base;
 
-import java.time.Duration;
-
-import org.openqa.selenium.Dimension;
-
 import com.qa.eco.base.TestBase;
 import com.qa.eco.pages.LoginPage;
 import com.qa.utils.TestUtils;
-
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -15,12 +10,12 @@ import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
 public class CommonInitialization extends TestBase{
-	TestUtils utils = new TestUtils();
+	
 	@AndroidFindBy  (id = "in.droom.eco:id/scrollView1") private MobileElement Panel;
 	@AndroidFindBy (id="com.android.permissioncontroller:id/permission_allow_button") private MobileElement PhotoPermissionAllow;
 	@AndroidFindBy  (id = "in.droom.eco:id/skip_to_login") private MobileElement LETS_GET_STARTED;
 	@AndroidFindBy  (xpath = "//*[@text='LOGIN']") private MobileElement LoginButton1;
-	
+	TestUtils utils = new TestUtils();
 	/*LoginButton1.click();
 	
 	
@@ -39,8 +34,10 @@ public class CommonInitialization extends TestBase{
     
     PopupOk.click();
 	*/
+
 	
 	public CommonInitialization pressPhotoPermissionAllow() throws InterruptedException {
+		System.out.println("done3");
 		click(PhotoPermissionAllow);
 		utils.log().info("Photo Permission Given");
 		Thread.sleep(1000);
@@ -59,6 +56,7 @@ public class CommonInitialization extends TestBase{
 		return new LoginPage();
 	}
 	public LoginPage initialization() throws InterruptedException {
+		System.out.println("doneinternal");
 		pressPhotoPermissionAllow();
 		pressLETS_GET_STARTED();
 		return pressLoginButton1();

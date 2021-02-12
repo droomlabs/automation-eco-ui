@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import com.qa.eco.base.CommonInitialization;
 import com.qa.eco.base.TestBase;
+import com.qa.eco.base.TestBase2;
 import com.qa.eco.browser.pages.EcoAdminLogin;
 import com.qa.eco.browser.pages.NewRequestPage;
 import com.qa.eco.browser.pages.OrderManagementPage;
@@ -22,7 +23,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-public class EcoAdminPanelOrderCreationTest extends TestBase{
+public class EcoAdminPanelOrderCreationTest extends TestBase2{
 	EcoAdminLogin EAL ;
 	Welcomepage welcomepage;
 	OrderManagementPage OMP;
@@ -50,7 +51,7 @@ public class EcoAdminPanelOrderCreationTest extends TestBase{
 
   @AfterMethod
   public void afterMethod() {
-	 // driver.quit();
+	  
   }
   @Test
   public void ElevatorOrderCreation() throws Exception {

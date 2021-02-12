@@ -58,9 +58,10 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
   
   @BeforeMethod
   public void beforeMethod(Method m) {
-	  
+	  System.out.println("done");
+	 
 	  cm = new CommonInitialization();
-	  
+	  System.out.println("done2");
 	  //TestBase.scrollLR("right");
 	  
 	  System.out.println("method:-"+m.getName());
@@ -68,6 +69,7 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
 
   @AfterMethod
   public void afterMethod() {
+	  
   }
  
   @Test
