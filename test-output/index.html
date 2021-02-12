@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>C:\Users\umang.sharma\eclipse-workspace\EcoApp\testng.xml</span>
+                    <span>C:\Users\umang.sharma\eclipse-workspace\EcoApp\testng2.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.eco.qa.testcases.GermShieldTreatmeElevatorTests" hash-for-method="ElevatorIdealFlow">ElevatorIdealFlow</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.eco.qa.testcases.Sampletest" hash-for-method="validUserNamePswd2">validUserNamePswd2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -118,7 +118,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.eco.qa.testcases.EcoAdminPanelOrderCreationTest" hash-for-method="ElevatorOrderCreation">ElevatorOrderCreation</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.eco.qa.testcases.Sampletest" hash-for-method="validUserNamePswd">validUserNamePswd</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.eco.qa.testcases.Sampletest" hash-for-method="validUserNamePswd3">validUserNamePswd3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -136,18 +141,18 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.eco.qa.testcases.GermShieldTreatmeElevatorTests</span>
+              <span class="class-name">com.eco.qa.testcases.Sampletest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ElevatorIdealFlow">
-                  </a> <!-- ElevatorIdealFlow -->
-                  <span class="method-name">ElevatorIdealFlow</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at com.eco.qa.testcases.GermShieldTreatmeElevatorTests.ElevatorIdealFlow(GermShieldTreatmeElevatorTests.java:83)
+                  <a name="validUserNamePswd2">
+                  </a> <!-- validUserNamePswd2 -->
+                  <span class="method-name">validUserNamePswd2</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.eco.qa.testcases.Sampletest.validUserNamePswd2(Sampletest.java:32)
 	at java.util.ArrayList.forEach(ArrayList.java:1259)
-... Removed 27 stack frames
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -156,14 +161,21 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.eco.qa.testcases.EcoAdminPanelOrderCreationTest</span>
+              <span class="class-name">com.eco.qa.testcases.Sampletest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ElevatorOrderCreation">
-                  </a> <!-- ElevatorOrderCreation -->
-                  <span class="method-name">ElevatorOrderCreation</span>
+                  <a name="validUserNamePswd">
+                  </a> <!-- validUserNamePswd -->
+                  <span class="method-name">validUserNamePswd</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validUserNamePswd3">
+                  </a> <!-- validUserNamePswd3 -->
+                  <span class="method-name">validUserNamePswd3</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -171,7 +183,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\umang.sharma\eclipse-workspace\EcoApp\testng.xml</span>
+            <span class="header-content">C:\Users\umang.sharma\eclipse-workspace\EcoApp\testng2.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -180,17 +192,9 @@
 &lt;suite name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Testweb&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.eco.qa.testcases.EcoAdminPanelOrderCreationTest&quot;/&gt;
+      &lt;class name=&quot;com.eco.qa.testcases.Sampletest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Testweb --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Testapp&quot;&gt;
-    &lt;parameter name=&quot;platformVersion&quot; value=&quot;10 QKQ1.191014.001&quot;/&gt;
-    &lt;parameter name=&quot;platformName&quot; value=&quot;Android&quot;/&gt;
-    &lt;parameter name=&quot;deviceName&quot; value=&quot;Redmi&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.eco.qa.testcases.GermShieldTreatmeElevatorTests&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Testapp --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -203,9 +207,6 @@
             <ul>
               <li>
                 <span class="test-name">Testweb (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Testapp (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -231,20 +232,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ElevatorOrderCreation')
-data.setCell(0, 2, 'com.eco.qa.testcases.EcoAdminPanelOrderCreationTest')
-data.setCell(0, 3, 65828);
+data.setCell(0, 1, 'validUserNamePswd')
+data.setCell(0, 2, 'com.eco.qa.testcases.Sampletest')
+data.setCell(0, 3, 29);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ElevatorIdealFlow')
-data.setCell(1, 2, 'com.eco.qa.testcases.GermShieldTreatmeElevatorTests')
-data.setCell(1, 3, 25505);
+data.setCell(1, 1, 'validUserNamePswd3')
+data.setCell(1, 2, 'com.eco.qa.testcases.Sampletest')
+data.setCell(1, 3, 5);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validUserNamePswd2')
+data.setCell(2, 2, 'com.eco.qa.testcases.Sampletest')
+data.setCell(2, 3, 4);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 38 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -270,68 +275,21 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.eco.qa.testcases.EcoAdminPanelOrderCreationTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">5701 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.eco.qa.testcases.EcoAdminPanelOrderCreationTest.ElevatorOrderCreation() throws java....)</span>
-                <span class="method-start">5740 ms</span>
-              </div> <!-- configuration-method before -->
+              <div class="chronological-class-name">com.eco.qa.testcases.Sampletest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">ElevatorOrderCreation</span>
-                <span class="method-start">7102 ms</span>
+                <span class="method-name">validUserNamePswd</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">72937 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">72939 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">72945 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.eco.qa.testcases.GermShieldTreatmeElevatorTests</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest(Android, 10 QKQ1.191014.001, Redmi)</span>
-                <span class="method-start">73969 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">92399 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.eco.qa.testcases.GermShieldTreatmeElevatorTests.ElevatorIdealFlow() throws java.lang...)</span>
-                <span class="method-start">92400 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">ElevatorIdealFlow</span>
-                <span class="method-start">92778 ms</span>
+                <span class="method-name">validUserNamePswd2</span>
+                <span class="method-start">38 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">118293 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">118295 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">118295 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">validUserNamePswd3</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

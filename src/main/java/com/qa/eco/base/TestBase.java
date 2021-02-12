@@ -1,6 +1,7 @@
 package com.qa.eco.base;
 
 
+import com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter;
 import com.qa.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
@@ -13,6 +14,7 @@ import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
 import java.io.IOException;
@@ -39,7 +41,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
-
+@Listeners(ExtentITestListenerClassAdapter.class)
 public class TestBase {
 	protected static AppiumDriver  driver ;
 	protected static Properties props;
