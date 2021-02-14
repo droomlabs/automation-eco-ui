@@ -3,7 +3,6 @@ package com.eco.qa.testcases;
 import org.testng.annotations.Test;
 
 import com.qa.eco.base.CommonInitialization;
-import com.qa.eco.base.TestBase;
 
 import com.qa.eco.base.TestBaseBrowser;
 import com.qa.eco.browser.pages.EcoAdminLogin;

@@ -1,29 +1,29 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 72.575 s <<< FAILURE! - in TestSuite
-com.eco.qa.testcases.EcoAdminPanelOrderCreationTest.beforeTest  Time elapsed: 27.62 s  <<< FAILURE!
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 84.163 s <<< FAILURE! - in TestSuite
+com.eco.qa.testcases.EcoAdminPanelOrderCreationTest.beforeTest  Time elapsed: 29.179 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: 
-timeout: Timed out receiving message from renderer: -0.006
+timeout: Timed out receiving message from renderer: -0.011
   (Session info: chrome=88.0.4324.150)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'UMANG952-PROD', ip: '172.17.17.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'UMANG952-PROD', ip: '172.17.17.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\UMANG~1.SHA\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:64314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: be3cba1de828d0f3d43d5e054fc8c6f1
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\UMANG~1.SHA\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:61111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f369a65c799f441bb0a0216e0f8d972
 
-com.eco.qa.testcases.GermShieldTreatmeElevatorTests.ElevatorIdealFlow  Time elapsed: 21.72 s  <<< FAILURE!
+com.eco.qa.testcases.GermShieldTreatmeElevatorTests.ElevatorIdealFlow  Time elapsed: 21.661 s  <<< FAILURE!
 org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.id: com.android.permissioncontroller:id/permission_allow_button}) (tried for 20 second(s) with 500 milliseconds interval)
 	at com.eco.qa.testcases.GermShieldTreatmeElevatorTests.ElevatorIdealFlow(GermShieldTreatmeElevatorTests.java:79)
 Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.id: com.android.permissioncontroller:id/permission_allow_button})
 	at com.eco.qa.testcases.GermShieldTreatmeElevatorTests.ElevatorIdealFlow(GermShieldTreatmeElevatorTests.java:79)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2a22ad2b (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@6daf2337 (tried for 1 second(s) with 500 milliseconds interval)
 	at com.eco.qa.testcases.GermShieldTreatmeElevatorTests.ElevatorIdealFlow(GermShieldTreatmeElevatorTests.java:79)
 Caused by: org.openqa.selenium.NoSuchElementException: 
 Cannot locate an element using By.chained({By.id: com.android.permissioncontroller:id/permission_allow_button})
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'UMANG952-PROD', ip: '172.17.17.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'UMANG952-PROD', ip: '172.17.17.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: driver.version: AppiumDriver
 	at com.eco.qa.testcases.GermShieldTreatmeElevatorTests.ElevatorIdealFlow(GermShieldTreatmeElevatorTests.java:79)
 
