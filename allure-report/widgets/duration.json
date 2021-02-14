@@ -1,0 +1,21 @@
+[ {
+  "uid" : "909f785847ee55d0",
+  "name" : "ElevatorOrderCreation",
+  "time" : {
+    "start" : 1613327687668,
+    "stop" : 1613327687690,
+    "duration" : 22
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c540742ddec5ca36",
+  "name" : "beforeTest",
+  "time" : {
+    "start" : 1613327687428,
+    "stop" : 1613327687431,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

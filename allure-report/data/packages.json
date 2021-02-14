@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.eco.qa.testcases.EcoAdminPanelOrderCreationTest",
+    "children" : [ {
+      "name" : "beforeTest",
+      "uid" : "c540742ddec5ca36",
+      "parentUid" : "9f4d696e1be7eb10499e98c619007ce9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1613327687428,
+        "stop" : 1613327687431,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "ElevatorOrderCreation",
+      "uid" : "909f785847ee55d0",
+      "parentUid" : "9f4d696e1be7eb10499e98c619007ce9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1613327687668,
+        "stop" : 1613327687690,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.eco.qa.testcases.EcoAdminPanelOrderCreationTest"
+  } ]
+}
