@@ -42,14 +42,14 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 @Listeners(ExtentITestListenerClassAdapter.class)
-public class TestBase2 {
+public class TestBaseBrowser {
 	
 	protected static WebDriver driver2;
 	protected static Properties props;
 	InputStream inputStream;
 	TestUtils utils = new TestUtils();
 	JavascriptExecutor js = (JavascriptExecutor) driver2;
-	public TestBase2() {
+	public TestBaseBrowser() {
 		PageFactory.initElements(driver2, this);	
 	}
 

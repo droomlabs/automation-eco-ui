@@ -4,12 +4,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.qa.eco.base.TestBase;
-import com.qa.eco.base.TestBase2;
+
+import com.qa.eco.base.TestBaseBrowser;
 import com.qa.eco.pages.LoginPage;
 import com.qa.eco.pages.Services;
 import com.qa.utils.TestUtils;
 
-public class EcoAdminLogin extends TestBase2 {
+public class EcoAdminLogin extends TestBaseBrowser {
 	
 	@FindBy(name="username") WebElement UserName;
 	@FindBy(name="password1") WebElement Password;
