@@ -4,7 +4,7 @@
 
 	<test name="Testweb">
 		<classes>
-			<class name="com.eco.qa.testcases.EcoAdminLogin" />
+			<class name="com.eco.qa.testcases.EcoAdminPanelLoginTest" />
 			<class
 				name="com.eco.qa.testcases.EcoAdminPanelOrderCreationTest" />
 		</classes>
