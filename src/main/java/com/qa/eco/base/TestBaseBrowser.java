@@ -214,7 +214,6 @@ public static void Calender(String dateTime ,int x , List<WebElement> list_AllMo
 
 	@AfterTest
 	public  void afterTest() {
-		System.out.println("insidebrowserafter");
 		driver2.quit();
 	}
 

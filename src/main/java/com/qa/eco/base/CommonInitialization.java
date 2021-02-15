@@ -37,7 +37,6 @@ public class CommonInitialization extends TestBase{
 
 	
 	public CommonInitialization pressPhotoPermissionAllow() throws InterruptedException {
-		System.out.println("done3");
 		click(PhotoPermissionAllow);
 		utils.log().info("Photo Permission Given");
 		Thread.sleep(1000);
@@ -56,7 +55,6 @@ public class CommonInitialization extends TestBase{
 		return new LoginPage();
 	}
 	public LoginPage initialization() throws InterruptedException {
-		System.out.println("doneinternal");
 		pressPhotoPermissionAllow();
 		pressLETS_GET_STARTED();
 		return pressLoginButton1();

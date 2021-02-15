@@ -19,6 +19,7 @@ import com.qa.eco.pages.SelectServiceModulePage;
 import com.qa.eco.pages.Services;
 import com.qa.eco.pages.TreatmentDurationPage;
 import com.qa.eco.pages.TreatmentSubcategory;
+import com.qa.utils.TestUtils;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -31,6 +32,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
 public class GermShieldTreatmeElevatorTests extends TestBase{
+	TestUtils utils = new TestUtils();
 	CommonInitialization cm;
 	LoginPage loginPage ;
 	Services services;
@@ -58,13 +60,12 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
   
   @BeforeMethod
   public void beforeMethod(Method m) {
-	  System.out.println("done");
 	 
 	  cm = new CommonInitialization();
-	  System.out.println("done2");
+	  
 	  //TestBase.scrollLR("right");
 	  
-	  System.out.println("method:-"+m.getName());
+	  utils.log().info("method:-"+m.getName());
   }
 
   @AfterMethod

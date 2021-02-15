@@ -57,14 +57,15 @@ public class TestBase {
 	@BeforeTest
 	public  void beforeTest(String platformName , String platformVersion , String deviceName) throws Exception {
 		try {
-			System.out.println("insidebrowser");
+			
 			props = new Properties();
 			String propFileName = "config.properties";
 			inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
 			props.load(inputStream);
 			DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 			desiredCapabilities.setCapability("deviceName", deviceName);
-			desiredCapabilities.setCapability("udid", "63d521db0806");
+			//desiredCapabilities.setCapability("udid", "63d521db0806");
+			desiredCapabilities.setCapability("udid", "emulator-5554");
 			desiredCapabilities.setCapability("unicodeKeyboard", true);
 			desiredCapabilities.setCapability("resetKeyboard", true);
 			desiredCapabilities.setCapability("platformName", platformName);
@@ -205,6 +206,6 @@ public class TestBase {
 	@AfterTest
 	public  void afterTest() {
 		driver.quit();
-		System.out.println("insidebrowserafter");
+		
 	}
 }
