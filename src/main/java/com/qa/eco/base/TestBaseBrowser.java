@@ -58,7 +58,6 @@ public class TestBaseBrowser {
 	@BeforeTest
 	public  void beforeTest() throws Exception {
 		try {
-			System.out.println("insidebrowser");
 			props = new Properties();
 			String propFileName = "config.properties";
 			inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);

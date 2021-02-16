@@ -1,1 +1,58 @@
-[INFO ] 2021-02-15 06:51:44.037 TestBase:87 - Application Started
+[INFO ] 2021-02-16 14:48:38.838 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-16 14:48:39.171 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-16 14:48:42.066 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-16 14:54:49.411 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-16 14:54:49.655 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-16 14:54:52.828 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-16 15:15:31.747 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-16 15:15:32.048 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-16 15:15:34.839 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-16 15:15:34.987 EcoAdminPanelPage:22 - profile button clicked
+[INFO ] 2021-02-16 15:15:36.576 EcoAdminLogOut:23 - logout done
+[INFO ] 2021-02-16 15:20:21.900 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-16 15:20:22.150 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-16 15:20:27.048 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-16 15:20:27.208 EcoAdminPanelPage:22 - profile button clicked
+[INFO ] 2021-02-16 15:20:28.753 EcoAdminLogOut:23 - logout done
+[INFO ] 2021-02-16 15:24:29.291 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-16 15:24:29.543 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-16 15:24:34.475 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-16 15:24:34.637 EcoAdminPanelPage:22 - profile button clicked
+[INFO ] 2021-02-16 15:24:36.272 EcoAdminLogOut:23 - logout done
+[INFO ] 2021-02-16 15:57:08.446 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-16 15:57:08.717 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-16 15:57:12.147 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-16 15:57:13.328 Welcomepage:33 - profile button clicked
+[INFO ] 2021-02-16 15:57:13.985 Welcomepage:35 - logout done
+[INFO ] 2021-02-16 16:05:23.324 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-16 16:05:23.588 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-16 16:05:27.567 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-16 16:05:28.755 Welcomepage:33 - profile button clicked
+[INFO ] 2021-02-16 16:05:29.373 Welcomepage:35 - logout done
+[INFO ] 2021-02-16 16:05:29.713 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-16 16:05:29.976 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-16 16:05:31.364 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-16 16:05:31.487 Welcomepage:23 - successful login
+[INFO ] 2021-02-16 16:05:37.261 Welcomepage:39 - OrderManagement button clicked
+[INFO ] 2021-02-16 16:05:38.197 OrderManagementPage:26 - RaiseNewRequest button clicked
+[INFO ] 2021-02-16 16:05:38.690 NewRequestPage:51 - Vendor selcted
+[INFO ] 2021-02-16 16:05:39.192 NewRequestPage:56 - customername entered
+[INFO ] 2021-02-16 16:05:39.402 NewRequestPage:61 - customer address entered
+[INFO ] 2021-02-16 16:05:39.611 NewRequestPage:66 - customer Pincode entered
+[INFO ] 2021-02-16 16:05:39.833 NewRequestPage:71 - customer phone entered
+[INFO ] 2021-02-16 16:05:40.105 NewRequestPage:76 - customer email entered
+[INFO ] 2021-02-16 16:05:40.373 NewRequestPage:81 - Service selcted
+[INFO ] 2021-02-16 16:05:40.389 NewRequestPage:83 - Pagescroll done
+[INFO ] 2021-02-16 16:05:45.690 NewRequestPage:88 - Vehicle selcted
+[INFO ] 2021-02-16 16:05:46.086 NewRequestPage:94 - SubCategory selcted
+[INFO ] 2021-02-16 16:05:46.326 NewRequestPage:99 - RportType selcted
+[INFO ] 2021-02-16 16:05:46.598 NewRequestPage:104 - CoverageAreaOrCapacity entered
+[INFO ] 2021-02-16 16:05:46.914 NewRequestPage:109 - SwabTest selcted
+[INFO ] 2021-02-16 16:05:47.100 NewRequestPage:114 - SwabCount entered
+[INFO ] 2021-02-16 16:05:47.121 NewRequestPage:119 - Pagescroll done
+[INFO ] 2021-02-16 16:05:47.738 NewRequestPage:127 - selectTimeslot1 selcted
+[INFO ] 2021-02-16 16:05:48.263 NewRequestPage:138 - selectTimeslot2 selcted
+[INFO ] 2021-02-16 16:05:53.134 NewRequestPage:146 - Submit button clicked
+[INFO ] 2021-02-16 16:05:57.624 OrderManagementPage:33 - dropdown visible
+[INFO ] 2021-02-16 16:06:09.471 OrderManagementPage:36 - Technician id filled
+[INFO ] 2021-02-16 16:06:14.755 OrderManagementPage:39 - technician assigned

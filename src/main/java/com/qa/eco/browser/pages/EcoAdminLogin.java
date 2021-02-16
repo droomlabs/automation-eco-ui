@@ -37,6 +37,7 @@ public class EcoAdminLogin extends TestBaseBrowser {
 	public Welcomepage login(String username , String password) {
 		enterUserName(username);
 		enterPassword(password);
+		
 		return pressLoginButton();
 		
 	}

@@ -13,7 +13,7 @@
 		<parameter name="platformVersion" value="10 QKQ1.191014.001"/> <parameter 
 		name="deviceName" value="Redmi"/> <classes> <class name="com.eco.qa.testcases.GermShieldTreatmeElevatorTests"/> 
 		</classes> </test> Test -->
-	<test name="Testapp">
+	<!--<test name="Testapp">
 		<parameter name="platformName" value="Android" />
 		<parameter name="platformVersion" value="10 QKQ1.191014.001" />
 		<parameter name="deviceName" value="Pixle 3" />
@@ -22,5 +22,5 @@
 				name="com.eco.qa.testcases.GermShieldTreatmeElevatorTests" />
 			<class name="com.eco.qa.testcases.LoginTests" />
 		</classes>
-	</test>
+	</test>-->
 </suite> <!-- Suite -->

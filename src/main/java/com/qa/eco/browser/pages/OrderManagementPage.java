@@ -26,7 +26,7 @@ public class OrderManagementPage extends EcoAdminLogin {
 		utils.log().info("RaiseNewRequest button clicked");
 		return new NewRequestPage();
 	}
-	public OrderManagementPage assignTechnician(String Tech_id) throws Exception {
+	public Welcomepage assignTechnician(String Tech_id) throws Exception {
 		
 		clickb(AssignTechnician);
 		clickb(AssignTechniciandropdown);
@@ -39,7 +39,7 @@ public class OrderManagementPage extends EcoAdminLogin {
 		utils.log().info("technician assigned");
 		Thread.sleep(10000);
 		//return new CommonInitialization();
-		return this;
+		return new Welcomepage();
 	}
 
 }

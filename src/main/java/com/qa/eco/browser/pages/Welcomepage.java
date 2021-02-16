@@ -12,6 +12,8 @@ public class Welcomepage extends EcoAdminLogin {
 	
 	@FindBy(xpath="/html/body/div[1]/div[1]/section[2]/h1") WebElement WelcomeText;
 	@FindBy(xpath="//a[@href='/home']") WebElement OrderManagementButton;
+	@FindBy(xpath="//a[@class='dropdown-toggle']") WebElement Profile_btn;
+	@FindBy(xpath="//a[normalize-space()='Logout']") WebElement Logout_btn;
 
 	TestUtils utils = new TestUtils();
 	
@@ -26,7 +28,12 @@ public class Welcomepage extends EcoAdminLogin {
 		
 		return this;
 	}
-	
+	public void logoutMethod() {
+		clickb(Profile_btn);
+		utils.log().info("profile button clicked");
+		clickb(Logout_btn);
+		utils.log().info("logout done");
+			}
 	public OrderManagementPage pressOrderManagement() {
 		clickb(OrderManagementButton);
 		utils.log().info("OrderManagement button clicked");
