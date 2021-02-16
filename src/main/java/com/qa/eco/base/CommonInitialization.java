@@ -15,6 +15,7 @@ public class CommonInitialization extends TestBase{
 	@AndroidFindBy (id="com.android.permissioncontroller:id/permission_allow_button") private MobileElement PhotoPermissionAllow;
 	@AndroidFindBy  (id = "in.droom.eco:id/skip_to_login") private MobileElement LETS_GET_STARTED;
 	@AndroidFindBy  (xpath = "//*[@text='LOGIN']") private MobileElement LoginButton1;
+	@AndroidFindBy  (id = "in.droom.eco:id/login_text") private MobileElement login_text;
 	TestUtils utils = new TestUtils();
 	/*LoginButton1.click();
 	
@@ -55,8 +56,12 @@ public class CommonInitialization extends TestBase{
 		return new LoginPage();
 	}
 	public LoginPage initialization() throws InterruptedException {
+		if (login_text.isDisplayed()) {
+			return new LoginPage();
+		}
+		else {
 		pressPhotoPermissionAllow();
 		pressLETS_GET_STARTED();
-		return pressLoginButton1();
+		return pressLoginButton1();}
 	}
 }

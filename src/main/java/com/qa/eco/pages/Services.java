@@ -10,6 +10,7 @@ public class Services extends LoginPage{
 	@AndroidFindBy  (id = "com.android.permissioncontroller:id/permission_allow_foreground_only_button") private MobileElement foreground_Location_Allow;
 	@AndroidFindBy  (id = "in.droom.eco:id/check_inspection") private MobileElement Check_Services;
 	@AndroidFindBy  (id = "android:id/button1") private MobileElement Ninja_Health_Proceed;
+	@AndroidFindBy  (id = "in.droom.eco:id/mHeaderLeft") private MobileElement Hamburgermenu;
 	
 public Services pressforegroundLocationAllow() {
 		click(foreground_Location_Allow);
@@ -41,6 +42,11 @@ public  NinjaHealthDeclaration pressCheckServices() {
 	utils.log().info("clicked on Health_declaration Proceed button");
 	return new NinjaHealthDeclaration();
 }*/
+public SideMenu cickHamburgermenu() {
+	click(Hamburgermenu);
+	utils.log().info("clicked on Hamburgermenu");
+	return new SideMenu();
+}
 public MetaCategories pressCheckServices2() {
 	click(Check_Services);
 	utils.log().info("clicked on view services");

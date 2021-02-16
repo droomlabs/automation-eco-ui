@@ -6,6 +6,7 @@ import com.qa.eco.base.CommonInitialization;
 import com.qa.eco.base.TestBase;
 import com.qa.eco.pages.LoginPage;
 import com.qa.eco.pages.Services;
+import com.qa.eco.pages.SideMenu;
 import com.qa.utils.TestUtils;
 
 import org.testng.annotations.BeforeMethod;
@@ -21,6 +22,7 @@ public class LoginTests extends TestBase{
 	LoginPage loginPage ;
 	CommonInitialization cm;
 	Services services;
+	SideMenu SM;
 	TestUtils utils = new TestUtils();
 	@BeforeClass
 	  public void beforeClass() {
@@ -53,6 +55,7 @@ public class LoginTests extends TestBase{
 	  loginPage.enterUserName("invalid@droom.in");
 	  loginPage.enterPassword("invalid");
 	  loginPage.pressLoginButton2();
+	  
 	  
 	  String actualpouptext = loginPage.getPopupText() ;
 		String expectedpouptext = "Wrong password. Please enter the correct password and try again.";
@@ -95,6 +98,8 @@ public class LoginTests extends TestBase{
 	  loginPage.enterPassword("@Login123");
 	  services=loginPage.pressLoginButton2();
 	  services.pressforegroundLocationAllow();
+	  SM=services.cickHamburgermenu();
+	  SM.logout();
 	  Thread.sleep(5000);
   }
 }
