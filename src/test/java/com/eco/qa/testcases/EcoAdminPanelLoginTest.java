@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import com.qa.eco.base.CommonInitialization;
 
 import com.qa.eco.base.TestBaseBrowser;
+import com.qa.eco.browser.pages.EcoAdminLogOut;
 import com.qa.eco.browser.pages.EcoAdminLogin;
 import com.qa.eco.pages.LoginPage;
 import com.qa.eco.pages.Services;
@@ -21,6 +22,7 @@ import org.testng.annotations.AfterClass;
 
 public class EcoAdminPanelLoginTest extends TestBaseBrowser{
 	EcoAdminLogin EAL ;
+	EcoAdminLogOut EALO;
 	
 	TestUtils utils = new TestUtils();
 	@BeforeClass
@@ -45,7 +47,7 @@ public class EcoAdminPanelLoginTest extends TestBaseBrowser{
 
   @AfterMethod
   public void afterMethod() {
-	 // driver.quit();
+	  EALO.logout();
   }
   @Test
   public void validUserNamePswd() throws InterruptedException {
