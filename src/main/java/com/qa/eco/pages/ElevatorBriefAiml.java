@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class ElevatorBriefAiml extends SelectServiceModulePage{
+public class ElevatorBriefAiml extends TestBase{
 	TestUtils utils = new TestUtils();
 	
 	@AndroidFindBy  (id = "in.droom.eco:id/skip_step") private MobileElement Skip_Step;

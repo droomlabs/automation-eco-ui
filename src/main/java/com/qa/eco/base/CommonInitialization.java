@@ -56,12 +56,16 @@ public class CommonInitialization extends TestBase{
 		return new LoginPage();
 	}
 	public LoginPage initialization() throws InterruptedException {
-		if (login_text.isDisplayed()) {
-			return new LoginPage();
-		}
-		else {
-		pressPhotoPermissionAllow();
-		pressLETS_GET_STARTED();
-		return pressLoginButton1();}
+		
+		try {
+	        login_text.isDisplayed();
+	        return new LoginPage();
+	    } catch (org.openqa.selenium.NoSuchElementException e) {
+	    	pressPhotoPermissionAllow();
+			pressLETS_GET_STARTED();
+			return pressLoginButton1();
+	    }
+		
+		
 	}
 }

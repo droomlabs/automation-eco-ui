@@ -7,19 +7,25 @@ import com.qa.eco.base.TestBase;
 import com.qa.eco.pages.BeforeTreatmentPage;
 import com.qa.eco.pages.CommonCompletedTreatmentPage;
 import com.qa.eco.pages.CommonNewRequestPage;
+import com.qa.eco.pages.CommonPageToSubCategories;
 import com.qa.eco.pages.CommonPendingTreatmentPage;
-import com.qa.eco.pages.CommonSubCategorydPage;
+
 import com.qa.eco.pages.ElevatorBrief;
 import com.qa.eco.pages.ElevatorBriefAiml;
 import com.qa.eco.pages.LoginPage;
+import com.qa.eco.pages.Menu;
 import com.qa.eco.pages.MetaCategories;
 import com.qa.eco.pages.NinjaHealthDeclaration;
 import com.qa.eco.pages.PostTreatmentPage;
 import com.qa.eco.pages.SelectServiceModulePage;
 import com.qa.eco.pages.Services;
+import com.qa.eco.pages.SideMenu;
 import com.qa.eco.pages.TreatmentDurationPage;
 import com.qa.eco.pages.TreatmentSubcategory;
 import com.qa.utils.TestUtils;
+
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.pagefactory.AndroidFindBy;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -36,7 +42,8 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
 	CommonInitialization cm;
 	LoginPage loginPage ;
 	Services services;
-	CommonSubCategorydPage cscp;
+	SideMenu SM;
+	CommonPageToSubCategories cscp;
 	MetaCategories mc;
 	TreatmentSubcategory ts;
 	CommonNewRequestPage cnrp;
@@ -51,7 +58,8 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
 	NinjaHealthDeclaration nh;
 	@BeforeClass
 	  public void beforeClass() {
-		 
+		closing();
+		launching();
 	  }
 
 	  @AfterClass
@@ -81,18 +89,15 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
 	  services=loginPage.login("714928mitesh.karwa@gaadi.com","@Login123");
 	  services.pressforegroundLocationAllow();
 	  nh=services.pressCheckServices();
-	  String n=c.readLine();
-	  if (n=="inside else") {
-		  mc =nh.transferMethod();
-	  }
-	  else {
-		  int i;
-		  for(i=1;i==12;i++) {
-		  nh.answerNoQuestionEight(i);
-		  }
+	  try {
+		  nh.answerNoQuestion();
 		  services=nh.pressDone();
 		  mc=services.pressCheckServices2();
 	  }
+	 catch (Exception e) {
+		 throw e;
+		 // mc =nh.transferMethod();
+	 }
 	  
 	  ts=mc.pressTreatmentTab();
 	  cscp=ts.pressGermshieldViewOrders();
@@ -120,7 +125,7 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
 	  EB.takeElevatorPic();
 	  SSMP=EB.submitDetails();
 	  BTP=SSMP.pressBeforeGermshieldReading();
-	  BTP=cctp.pressBeforeGermshieldReading();
+	 // BTP=cctp.pressBeforeGermshieldReading();
 	  BTP.takeBeforeTreatmentPhotos();
 	  BTP.enterTreatmentAreaName("TreatmentArea");
 	  BTP.enterInitialReading("200");
@@ -134,6 +139,8 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
 	  SSMP=PTP.pressFinishBtn();
 	  cctp=SSMP.pressSelectServiceModulePageFinishBtn();
 	  cctp.pressGenerateReport();
+	  SM=cctp.cickHamburgermenu();
+	  SM.logout();
 	  Thread.sleep(10000);
   }
 }

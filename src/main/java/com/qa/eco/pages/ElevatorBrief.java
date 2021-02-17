@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class ElevatorBrief extends ElevatorBriefAiml{
+public class ElevatorBrief extends TestBase{
 	TestUtils utils = new TestUtils();
 	@AndroidFindBy  (id = "in.droom.eco:id/input_layout") private MobileElement Panel;
 	@AndroidFindBy  (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.Spinner/android.widget.LinearLayout") private MobileElement Elevator_Type;

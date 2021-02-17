@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class BeforeTreatmentPage extends SelectServiceModulePage{
+public class BeforeTreatmentPage extends TestBase{
 	TestUtils utils = new TestUtils();
 	@AndroidFindBy  (id = "in.droom.eco:id/img_dmg_arrow") private MobileElement BeforeTreatmentPhotodropdown;
 	@AndroidFindBy  (id = "in.droom.eco:id/layout_camera") private MobileElement CameraIcon;

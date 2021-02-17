@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class CommonNewRequestPage extends CommonSubCategorydPage{
+public class CommonNewRequestPage extends CommonPageToSubCategories{
 	
 	TestUtils utils = new TestUtils();
 		

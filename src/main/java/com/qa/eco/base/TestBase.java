@@ -5,6 +5,7 @@ import com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdap
 import com.qa.utils.TestUtils;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.InteractsWithApps;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.PerformsTouchActions;
 import io.appium.java_client.TouchAction;
@@ -15,6 +16,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 import java.io.IOException;
@@ -202,7 +204,12 @@ public class TestBase {
 	}
 	
 
-
+public void closing() {
+	((InteractsWithApps)driver).closeApp();
+}
+public void launching() {
+	((InteractsWithApps)driver).launchApp();
+}
 	@AfterTest
 	public  void afterTest() {
 		driver.quit();

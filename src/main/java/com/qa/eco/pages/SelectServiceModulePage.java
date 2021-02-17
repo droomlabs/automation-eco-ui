@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class SelectServiceModulePage extends CommonPendingTreatmentPage{
+public class SelectServiceModulePage extends TestBase{
 	TestUtils utils = new TestUtils();
 	
 	@AndroidFindBy  (xpath = "//*[@text='Elevator Brief']") private MobileElement Elevato_Brief;

@@ -3,13 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.eco.browser.pages.Welcomepage2">
+      <class name="com.eco.qa.testcases.LoginTests">
         <methods>
+          <include name="d_validUserNamePswd"/>
+          <include name="beforeClass"/>
           <include name="afterTest"/>
-          <include name="test"/>
+          <include name="b_invalidUserName"/>
           <include name="beforeTest"/>
+          <include name="beforeMethod"/>
+          <include name="a_invalidUserPswd"/>
+          <include name="c_invalidPswd"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.qa.eco.browser.pages.Welcomepage2 -->
+      </class> <!-- com.eco.qa.testcases.LoginTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

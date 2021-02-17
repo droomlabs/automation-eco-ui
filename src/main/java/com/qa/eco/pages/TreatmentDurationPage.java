@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class TreatmentDurationPage extends SelectServiceModulePage{
+public class TreatmentDurationPage extends TestBase{
 	TestUtils utils = new TestUtils();
 	
 	@AndroidFindBy  (id = "in.droom.eco:id/btn_timer_start") private MobileElement Timer_Start_Button;

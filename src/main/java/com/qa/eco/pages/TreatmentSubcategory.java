@@ -27,20 +27,21 @@ public class TreatmentSubcategory extends MetaCategories{
 	
 	
 	
-	public CommonSubCategorydPage pressGermshieldViewOrders() {
+	public CommonPageToSubCategories pressGermshieldViewOrders() {
+	
 		click(GERM_SHIELD_VIEW_ORDER);
 		utils.log().info("GERM_SHIELD_VIEW_ORDER button clicked");
-		return new CommonSubCategorydPage();
+		return new CommonPageToSubCategories();
 	}
-	public CommonSubCategorydPage pressGermshieldSilverViewOrders() {
+	public CommonPageToSubCategories pressGermshieldSilverViewOrders() {
 		click(GERM_SHIELD_SILVER_VIEW_ORDER);
 		utils.log().info("GERM_SHIELD_SILVER_VIEW_ORDER button clicked");
-		return new CommonSubCategorydPage();
+		return new CommonPageToSubCategories();
 	}
-	public CommonSubCategorydPage pressContaminationtestViewOrders() {
+	public CommonPageToSubCategories pressContaminationtestViewOrders() {
 		click(CONTAMINATION_TEST_VIEW_ORDER);
 		utils.log().info("CONTAMINATION_TEST_VIEW_ORDER button clicked");
-		return new CommonSubCategorydPage();
+		return new CommonPageToSubCategories();
 	}
 
 }

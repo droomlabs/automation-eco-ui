@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class CommonCompletedTreatmentPage extends SelectServiceModulePage{
+public class CommonCompletedTreatmentPage extends CommonPageToSubCategories{
 	TestUtils utils = new TestUtils();
 	
 	@AndroidFindBy  (id = "in.droom.eco:id/btn_generate") private MobileElement GenerateReport;

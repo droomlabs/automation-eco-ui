@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class CommonSubCategorydPage extends TreatmentSubcategory{
+public class CommonPageToSubCategories extends Menu{
 	TestUtils utils = new TestUtils();
 		
 	@AndroidFindBy  (id = "in.droom.eco:id/search_button") private MobileElement Search_Button;	
@@ -25,12 +25,12 @@ public class CommonSubCategorydPage extends TreatmentSubcategory{
 	@AndroidFindBy  (xpath = "//android.widget.TextView[@text='Rejected Treatment']") private MobileElement Rejected_Treatment;
 	
 	
-	public CommonSubCategorydPage pressSearchButton() {
+	public CommonPageToSubCategories pressSearchButton() {
 		click(Search_Button);
 		utils.log().info("Search_Button Clicked");
 		return this;
 	}
-	public CommonSubCategorydPage enterSearchText(String Order_id) {
+	public CommonPageToSubCategories enterSearchText(String Order_id) {
 		sendKeys(Search_Text_Button,Order_id);
 		utils.log().info("order id searched");
 		return this;

@@ -11,7 +11,7 @@ import com.qa.eco.pages.LoginPage;
 import com.qa.eco.pages.Services;
 import com.qa.utils.TestUtils;
 
-public class NewRequestPage extends EcoAdminLogin {
+public class NewRequestPage extends BrowserMenu {
 	
 	
 	

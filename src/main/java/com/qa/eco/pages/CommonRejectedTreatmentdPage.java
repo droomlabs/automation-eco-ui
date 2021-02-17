@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class CommonRejectedTreatmentdPage extends CommonNewRequestPage{
+public class CommonRejectedTreatmentdPage extends CommonPageToSubCategories{
 	/*TestUtils utils = new TestUtils();
 	
 	@AndroidFindBy  (id = "in.droom.eco:id/search_button") private MobileElement Search_Button;	

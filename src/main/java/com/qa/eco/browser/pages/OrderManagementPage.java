@@ -9,7 +9,7 @@ import com.qa.eco.pages.LoginPage;
 import com.qa.eco.pages.Services;
 import com.qa.utils.TestUtils;
 
-public class OrderManagementPage extends EcoAdminLogin {
+public class OrderManagementPage extends BrowserMenu {
 	
 	
 	@FindBy(xpath="//input[@value='Raise New Request']") WebElement RaiseNewRequest;
@@ -26,7 +26,7 @@ public class OrderManagementPage extends EcoAdminLogin {
 		utils.log().info("RaiseNewRequest button clicked");
 		return new NewRequestPage();
 	}
-	public Welcomepage assignTechnician(String Tech_id) throws Exception {
+	public  BrowserMenu assignTechnician(String Tech_id) throws Exception {
 		
 		clickb(AssignTechnician);
 		clickb(AssignTechniciandropdown);
@@ -39,7 +39,7 @@ public class OrderManagementPage extends EcoAdminLogin {
 		utils.log().info("technician assigned");
 		Thread.sleep(10000);
 		//return new CommonInitialization();
-		return new Welcomepage();
+		return new BrowserMenu();
 	}
 
 }

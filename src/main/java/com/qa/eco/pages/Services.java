@@ -5,12 +5,12 @@ import com.qa.utils.TestUtils;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class Services extends LoginPage{
+public class Services extends Menu{
 	TestUtils utils = new TestUtils();
 	@AndroidFindBy  (id = "com.android.permissioncontroller:id/permission_allow_foreground_only_button") private MobileElement foreground_Location_Allow;
 	@AndroidFindBy  (id = "in.droom.eco:id/check_inspection") private MobileElement Check_Services;
 	@AndroidFindBy  (id = "android:id/button1") private MobileElement Ninja_Health_Proceed;
-	@AndroidFindBy  (id = "in.droom.eco:id/mHeaderLeft") private MobileElement Hamburgermenu;
+	
 	
 public Services pressforegroundLocationAllow() {
 		click(foreground_Location_Allow);
@@ -25,6 +25,23 @@ public Services pressforegroundLocationAllow() {
 
 public  NinjaHealthDeclaration pressCheckServices() {
 	click(Check_Services);
+	utils.log().info("clicked on view services");
+	try {
+		click(Ninja_Health_Proceed);
+		utils.log().info("clicked on Health_declaration Proceed button");
+		return new NinjaHealthDeclaration();
+				}
+	catch (Exception e){
+		return new NinjaHealthDeclaration();
+	}
+}
+	
+	
+
+
+	
+	/*public  NinjaHealthDeclaration pressCheckServices() {
+	click(Check_Services);
 	if (Ninja_Health_Proceed.isDisplayed()==false) {
 		utils.log().info("clicked on view services");
 		return new NinjaHealthDeclaration();
@@ -36,17 +53,13 @@ public  NinjaHealthDeclaration pressCheckServices() {
 		utils.log().info("clicked on Health_declaration Proceed button");
 		return new NinjaHealthDeclaration();
 	}
-}	
+}	*/
 /*public NinjaHealthDeclaration pressNinjaHealthDeclaration() {
 	click(Ninja_Health_Proceed);
 	utils.log().info("clicked on Health_declaration Proceed button");
 	return new NinjaHealthDeclaration();
 }*/
-public SideMenu cickHamburgermenu() {
-	click(Hamburgermenu);
-	utils.log().info("clicked on Hamburgermenu");
-	return new SideMenu();
-}
+
 public MetaCategories pressCheckServices2() {
 	click(Check_Services);
 	utils.log().info("clicked on view services");

@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import com.qa.eco.base.CommonInitialization;
 import com.qa.eco.base.TestBase;
 import com.qa.eco.pages.LoginPage;
+import com.qa.eco.pages.Menu;
 import com.qa.eco.pages.Services;
 import com.qa.eco.pages.SideMenu;
 import com.qa.utils.TestUtils;
@@ -22,11 +23,13 @@ public class LoginTests extends TestBase{
 	LoginPage loginPage ;
 	CommonInitialization cm;
 	Services services;
+	Menu menu;
 	SideMenu SM;
 	TestUtils utils = new TestUtils();
 	@BeforeClass
 	  public void beforeClass() {
-		 
+		closing();
+		launching();
 	  }
 
 	  @AfterClass

@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.qa.eco.base.CommonInitialization;
 import com.qa.eco.base.TestBaseBrowser;
-
+import com.qa.eco.browser.pages.BrowserMenu;
 import com.qa.eco.browser.pages.EcoAdminLogin;
 import com.qa.eco.browser.pages.NewRequestPage;
 import com.qa.eco.browser.pages.OrderManagementPage;
@@ -26,6 +26,7 @@ import org.testng.annotations.AfterClass;
 public class EcoAdminPanelOrderCreationTest extends TestBaseBrowser{
 	EcoAdminLogin EAL ;
 	Welcomepage welcomepage;
+	BrowserMenu browsermenu;
 	
 	OrderManagementPage OMP;
 	NewRequestPage NRP;
@@ -52,7 +53,7 @@ public class EcoAdminPanelOrderCreationTest extends TestBaseBrowser{
 
   @AfterMethod
   public void afterMethod() {
-	  welcomepage.logoutMethod();
+	  browsermenu.logoutMethod();
 
   }
   @Test
@@ -79,7 +80,7 @@ public class EcoAdminPanelOrderCreationTest extends TestBaseBrowser{
 	  NRP.selectTimeslot1("25/2/2021");
 	  NRP.selectTimeslot2("26/2/2021");
 	  OMP=NRP.pressSubmit();
-	  welcomepage=OMP.assignTechnician("2282");
+	  browsermenu=OMP.assignTechnician("2282");
 	  
   }
 }

@@ -14,7 +14,7 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 
-public class MetaCategories extends Services{
+public class MetaCategories extends Menu{
 	TestUtils utils = new TestUtils();
 	
 	

@@ -7,17 +7,23 @@ import com.qa.eco.base.TestBase;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class NinjaHealthDeclaration extends Services{
+public class NinjaHealthDeclaration extends Menu{
 	
 	
-	@AndroidFindBy  (xpath = "//*[@text='No']") List<MobileElement> no_buttons;
+	//@AndroidFindBy  (xpath = "//android.widget.RadioButton[@text='No']") List<MobileElement> no_buttons;
+	@AndroidFindBy  (id = "in.droom.eco:id/radioBtnForNo") List<MobileElement> no_buttons;
 	@AndroidFindBy  (id = "in.droom.eco:id/btn_done") private MobileElement Done;
-	
-public NinjaHealthDeclaration answerNoQuestionOne(int questnum) {
-	int index = questnum -1;
-		click(no_buttons.get(index));
-		return this;
-	}	
+	@AndroidFindBy  (id = "in.droom.eco:id/linearLayout") private MobileElement HealthScreen;
+	public NinjaHealthDeclaration answerNoQuestion() {
+		 for(int i=0;i==11;i++) {
+			 if(i==7) {scrollUD("down",HealthScreen);}
+			 click(no_buttons.get(i));
+			  }
+		 return this;
+			}	
+		
+		
+
 public NinjaHealthDeclaration answerNoQuestiontwo(int questnum) {
 	int index = questnum -1;
 		click(no_buttons.get(index));
@@ -80,7 +86,6 @@ public Services pressDone() {
 	return new Services();
 }	
 public MetaCategories transferMethod() {
-	System.out.println("transfered");
 	return new MetaCategories();
 }
 

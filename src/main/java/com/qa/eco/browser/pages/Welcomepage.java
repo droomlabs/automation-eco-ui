@@ -4,11 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import com.qa.eco.base.TestBase;
+import com.qa.eco.base.TestBaseBrowser;
 import com.qa.eco.pages.LoginPage;
 import com.qa.eco.pages.Services;
 import com.qa.utils.TestUtils;
 
-public class Welcomepage extends EcoAdminLogin {
+public class Welcomepage extends BrowserMenu {
 	
 	@FindBy(xpath="/html/body/div[1]/div[1]/section[2]/h1") WebElement WelcomeText;
 	@FindBy(xpath="//a[@href='/home']") WebElement OrderManagementButton;
@@ -28,17 +29,7 @@ public class Welcomepage extends EcoAdminLogin {
 		
 		return this;
 	}
-	public void logoutMethod() {
-		clickb(Profile_btn);
-		utils.log().info("profile button clicked");
-		clickb(Logout_btn);
-		utils.log().info("logout done");
-			}
-	public OrderManagementPage pressOrderManagement() {
-		clickb(OrderManagementButton);
-		utils.log().info("OrderManagement button clicked");
-		return new OrderManagementPage();
-	}
+	
 	
 
 }
