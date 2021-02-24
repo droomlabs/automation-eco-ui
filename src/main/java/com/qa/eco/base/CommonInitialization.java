@@ -1,5 +1,7 @@
 package com.qa.eco.base;
 
+import org.openqa.selenium.NoSuchElementException;
+
 import com.qa.eco.base.TestBase;
 import com.qa.eco.pages.LoginPage;
 import com.qa.utils.TestUtils;
@@ -40,7 +42,7 @@ public class CommonInitialization extends TestBase{
 	public CommonInitialization pressPhotoPermissionAllow() throws InterruptedException {
 		click(PhotoPermissionAllow);
 		utils.log().info("Photo Permission Given");
-		Thread.sleep(1000);
+		Thread.sleep(4000);
 		TestBase.scrollLRUD("right", Panel);
 		utils.log().info("right movemnet done");
 		return this;
@@ -60,7 +62,8 @@ public class CommonInitialization extends TestBase{
 		try {
 	        login_text.isDisplayed();
 	        return new LoginPage();
-	    } catch (org.openqa.selenium.NoSuchElementException e) {
+	    //} catch (org.openqa.selenium.NoSuchElementException e) {
+		} catch (NoSuchElementException e) {
 	    	pressPhotoPermissionAllow();
 			pressLETS_GET_STARTED();
 			return pressLoginButton1();

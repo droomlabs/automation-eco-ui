@@ -86,7 +86,8 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
 	  Console c =System.console();
 	  	  
 	  loginPage=cm.initialization();
-	  services=loginPage.login("714928mitesh.karwa@gaadi.com","@Login123");
+	 services=loginPage.login("714928mitesh.karwa@gaadi.com","@Login123");
+	  
 	  services.pressforegroundLocationAllow();
 	  nh=services.pressCheckServices();
 	  try {
@@ -95,8 +96,7 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
 		  mc=services.pressCheckServices2();
 	  }
 	 catch (Exception e) {
-		 throw e;
-		 // mc =nh.transferMethod();
+		  mc =nh.transferMethod();
 	 }
 	  
 	  ts=mc.pressTreatmentTab();

@@ -1,0 +1,293 @@
+[INFO ] 2021-02-17 00:40:08.570 TestBase:89 - Application Started
+[INFO ] 2021-02-17 00:40:24.674 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 00:40:31.599 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 00:40:32.162 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 00:40:34.871 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 00:40:37.149 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:40:37.903 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:40:38.985 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 00:40:38.989 LoginPage:68 - error popup visible
+[INFO ] 2021-02-17 00:40:42.449 LoginPage:75 - error popup ok clicked
+[INFO ] 2021-02-17 00:40:43.291 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:40:44.494 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:40:45.385 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 00:40:45.387 LoginPage:68 - error popup visible
+[INFO ] 2021-02-17 00:40:52.037 LoginPage:75 - error popup ok clicked
+[INFO ] 2021-02-17 00:40:53.390 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:40:54.551 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:40:55.490 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 00:40:55.493 LoginPage:68 - error popup visible
+[INFO ] 2021-02-17 00:41:01.364 LoginPage:75 - error popup ok clicked
+[INFO ] 2021-02-17 00:41:02.646 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:41:03.337 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:41:04.446 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 00:41:11.862 Services:17 - Location_Allow
+[INFO ] 2021-02-17 00:41:12.939 Menu:16 - clicked on Hamburgermenu
+[INFO ] 2021-02-17 00:41:14.988 SideMenu:18 - logout done
+[INFO ] 2021-02-17 00:42:24.342 TestBase:89 - Application Started
+[INFO ] 2021-02-17 00:42:35.801 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 00:42:39.825 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 00:42:40.332 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 00:42:42.721 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 00:42:44.992 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:42:46.221 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:42:47.188 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 00:42:47.191 LoginPage:68 - error popup visible
+[INFO ] 2021-02-17 00:42:49.509 LoginPage:75 - error popup ok clicked
+[INFO ] 2021-02-17 00:42:50.850 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:42:52.050 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:42:53.062 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 00:42:53.066 LoginPage:68 - error popup visible
+[INFO ] 2021-02-17 00:42:54.856 LoginPage:75 - error popup ok clicked
+[INFO ] 2021-02-17 00:42:55.902 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:42:56.297 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:42:57.288 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 00:42:57.290 LoginPage:68 - error popup visible
+[INFO ] 2021-02-17 00:42:58.870 LoginPage:75 - error popup ok clicked
+[INFO ] 2021-02-17 00:42:59.627 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:43:00.302 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:43:01.260 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 00:43:05.995 Services:17 - Location_Allow
+[INFO ] 2021-02-17 00:43:07.659 Menu:16 - clicked on Hamburgermenu
+[INFO ] 2021-02-17 00:43:09.983 SideMenu:18 - logout done
+[INFO ] 2021-02-17 00:43:24.589 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 00:43:28.415 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 00:43:28.870 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 00:43:30.400 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 00:43:32.533 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 00:43:33.265 LoginPage:54 - password entered
+[INFO ] 2021-02-17 00:43:34.186 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 01:54:09.884 TestBase:89 - Application Started
+[INFO ] 2021-02-17 01:54:20.821 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 01:54:24.793 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 01:54:25.264 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 01:54:27.532 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 01:54:29.150 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 01:54:30.360 LoginPage:54 - password entered
+[INFO ] 2021-02-17 01:54:31.416 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 01:54:36.087 Services:17 - Location_Allow
+[INFO ] 2021-02-17 01:54:37.975 Services:30 - clicked on view services
+[INFO ] 2021-02-17 01:59:50.872 TestBase:89 - Application Started
+[INFO ] 2021-02-17 02:00:00.179 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 02:00:04.095 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 02:00:04.550 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 02:00:06.620 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 02:00:08.611 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 02:00:09.821 LoginPage:54 - password entered
+[INFO ] 2021-02-17 02:00:10.765 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 02:00:15.500 Services:17 - Location_Allow
+[INFO ] 2021-02-17 02:00:16.529 Services:28 - clicked on view services
+[INFO ] 2021-02-17 02:00:18.371 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 02:10:28.724 TestBase:89 - Application Started
+[INFO ] 2021-02-17 02:10:38.598 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 02:10:42.732 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 02:10:43.260 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 02:10:44.693 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 02:10:46.550 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 02:10:47.759 LoginPage:54 - password entered
+[INFO ] 2021-02-17 02:10:48.714 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 02:10:53.678 Services:17 - Location_Allow
+[INFO ] 2021-02-17 02:10:54.749 Services:28 - clicked on view services
+[INFO ] 2021-02-17 02:10:55.611 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 02:12:42.478 TestBase:89 - Application Started
+[INFO ] 2021-02-17 02:12:52.778 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 02:12:56.647 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 02:12:57.140 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 02:12:59.211 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 02:13:01.319 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 02:13:02.550 LoginPage:54 - password entered
+[INFO ] 2021-02-17 02:13:03.647 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 02:13:17.780 Services:17 - Location_Allow
+[INFO ] 2021-02-17 02:13:18.894 Services:28 - clicked on view services
+[INFO ] 2021-02-17 02:13:19.776 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 02:34:20.977 TestBase:89 - Application Started
+[INFO ] 2021-02-17 02:34:33.106 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 02:34:37.419 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 02:34:37.946 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 02:34:40.263 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 02:34:41.922 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 02:34:42.743 LoginPage:54 - password entered
+[INFO ] 2021-02-17 02:34:43.836 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 02:34:49.394 Services:17 - Location_Allow
+[INFO ] 2021-02-17 02:34:50.532 Services:28 - clicked on view services
+[INFO ] 2021-02-17 02:34:51.486 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 02:41:41.179 TestBase:89 - Application Started
+[INFO ] 2021-02-17 02:41:54.561 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 02:48:59.127 TestBase:89 - Application Started
+[INFO ] 2021-02-17 02:49:12.737 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 02:49:17.114 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 02:49:17.624 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 02:49:19.424 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 02:49:21.661 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 02:49:22.362 LoginPage:54 - password entered
+[INFO ] 2021-02-17 02:49:23.570 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 02:49:29.258 Services:17 - Location_Allow
+[INFO ] 2021-02-17 02:49:30.468 Services:28 - clicked on view services
+[INFO ] 2021-02-17 02:49:31.399 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 03:02:50.880 TestBase:89 - Application Started
+[INFO ] 2021-02-17 03:03:06.265 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 03:03:11.539 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 03:03:11.832 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 03:03:14.191 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 03:03:16.340 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 03:03:17.547 LoginPage:54 - password entered
+[INFO ] 2021-02-17 03:03:18.635 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 03:03:25.177 Services:17 - Location_Allow
+[INFO ] 2021-02-17 03:03:25.445 Services:28 - clicked on view services
+[INFO ] 2021-02-17 03:03:26.263 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 03:05:21.774 TestBase:89 - Application Started
+[INFO ] 2021-02-17 03:05:34.922 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 03:06:14.280 TestBase:89 - Application Started
+[INFO ] 2021-02-17 03:06:26.406 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 03:07:46.120 TestBase:89 - Application Started
+[INFO ] 2021-02-17 03:08:03.626 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 03:08:07.828 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 03:08:08.375 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 03:08:10.037 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 03:08:12.181 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 03:08:13.378 LoginPage:54 - password entered
+[INFO ] 2021-02-17 03:08:14.446 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 03:08:20.003 Services:17 - Location_Allow
+[INFO ] 2021-02-17 03:08:21.025 Services:28 - clicked on view services
+[INFO ] 2021-02-17 03:08:21.865 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 03:10:07.176 TestBase:89 - Application Started
+[INFO ] 2021-02-17 03:10:19.394 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 03:10:23.947 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 03:10:24.526 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 03:10:26.221 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 03:10:27.942 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 03:10:29.136 LoginPage:54 - password entered
+[INFO ] 2021-02-17 03:10:30.194 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 03:10:41.538 Services:17 - Location_Allow
+[INFO ] 2021-02-17 03:10:42.721 Services:28 - clicked on view services
+[INFO ] 2021-02-17 03:10:43.650 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 03:11:29.876 TestBase:89 - Application Started
+[INFO ] 2021-02-17 03:11:41.383 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 03:12:17.250 TestBase:89 - Application Started
+[INFO ] 2021-02-17 03:12:29.616 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 03:12:34.324 CommonInitialization:45 - right movemnet done
+[INFO ] 2021-02-17 03:12:34.734 CommonInitialization:50 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 03:12:36.596 CommonInitialization:55 - outer login button CLICKED
+[INFO ] 2021-02-17 03:12:38.423 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 03:12:39.640 LoginPage:54 - password entered
+[INFO ] 2021-02-17 03:12:40.537 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 03:12:49.211 Services:17 - Location_Allow
+[INFO ] 2021-02-17 03:12:50.326 Services:28 - clicked on view services
+[INFO ] 2021-02-17 03:12:51.344 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 21:01:15.768 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:01:30.188 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 21:04:46.183 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:05:00.870 CommonInitialization:42 - Photo Permission Given
+[INFO ] 2021-02-17 21:07:31.686 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:07:45.548 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 21:10:49.861 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:11:02.628 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 21:11:07.674 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 21:11:08.295 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 21:11:11.008 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 21:11:13.307 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 21:11:14.089 LoginPage:54 - password entered
+[INFO ] 2021-02-17 21:11:15.177 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 21:11:32.315 Services:17 - Location_Allow
+[INFO ] 2021-02-17 21:11:33.524 Services:28 - clicked on view services
+[INFO ] 2021-02-17 21:14:48.356 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:15:02.467 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 21:16:19.946 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:16:32.788 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 21:16:38.800 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 21:16:39.373 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 21:16:42.122 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 21:16:44.370 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 21:16:45.611 LoginPage:54 - password entered
+[INFO ] 2021-02-17 21:16:46.872 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 21:16:52.580 Services:17 - Location_Allow
+[INFO ] 2021-02-17 21:16:53.796 Services:28 - clicked on view services
+[INFO ] 2021-02-17 21:16:54.828 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 21:20:39.603 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:20:53.573 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 21:20:59.524 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 21:21:00.061 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 21:21:02.923 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 21:21:05.319 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 21:21:06.587 LoginPage:54 - password entered
+[INFO ] 2021-02-17 21:21:07.811 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 21:21:13.513 Services:17 - Location_Allow
+[INFO ] 2021-02-17 21:21:14.654 Services:28 - clicked on view services
+[INFO ] 2021-02-17 21:21:15.600 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 21:26:31.332 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:26:44.159 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 21:26:50.046 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 21:26:50.664 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 21:26:53.443 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 21:26:55.816 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 21:26:57.055 LoginPage:54 - password entered
+[INFO ] 2021-02-17 21:26:58.257 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 21:27:04.605 Services:17 - Location_Allow
+[INFO ] 2021-02-17 21:27:05.983 Services:28 - clicked on view services
+[INFO ] 2021-02-17 21:27:06.980 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 21:29:55.092 TestBase:89 - Application Started
+[INFO ] 2021-02-17 21:30:08.504 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 21:30:14.545 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 21:30:15.060 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 21:30:17.729 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 21:30:19.599 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 21:30:20.843 LoginPage:54 - password entered
+[INFO ] 2021-02-17 21:30:22.037 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 21:30:28.294 Services:17 - Location_Allow
+[INFO ] 2021-02-17 21:30:29.483 Services:28 - clicked on view services
+[INFO ] 2021-02-17 21:30:30.494 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 23:31:36.912 TestBase:89 - Application Started
+[INFO ] 2021-02-17 23:31:56.808 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 23:32:04.372 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 23:32:04.940 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 23:32:07.107 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 23:32:09.221 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 23:32:10.540 LoginPage:54 - password entered
+[INFO ] 2021-02-17 23:32:11.736 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 23:32:18.516 Services:17 - Location_Allow
+[INFO ] 2021-02-17 23:32:19.870 Services:28 - clicked on view services
+[INFO ] 2021-02-17 23:32:20.922 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 23:36:12.596 TestBase:89 - Application Started
+[INFO ] 2021-02-17 23:36:28.197 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 23:36:34.140 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 23:36:34.572 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 23:36:37.393 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 23:36:39.399 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 23:36:40.647 LoginPage:54 - password entered
+[INFO ] 2021-02-17 23:36:42.012 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 23:36:48.532 Services:17 - Location_Allow
+[INFO ] 2021-02-17 23:36:49.899 Services:28 - clicked on view services
+[INFO ] 2021-02-17 23:36:50.917 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 23:37:59.042 TestBase:89 - Application Started
+[INFO ] 2021-02-17 23:38:13.582 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 23:38:19.579 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 23:38:20.140 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 23:38:23.121 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 23:38:25.625 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 23:38:26.395 LoginPage:54 - password entered
+[INFO ] 2021-02-17 23:38:27.626 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 23:38:33.392 Services:17 - Location_Allow
+[INFO ] 2021-02-17 23:38:34.766 Services:28 - clicked on view services
+[INFO ] 2021-02-17 23:38:35.760 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 23:40:06.224 TestBase:89 - Application Started
+[INFO ] 2021-02-17 23:40:18.210 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 23:40:24.072 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 23:40:24.654 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 23:40:26.652 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 23:40:29.118 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 23:40:29.912 LoginPage:54 - password entered
+[INFO ] 2021-02-17 23:40:31.089 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 23:40:37.246 Services:17 - Location_Allow
+[INFO ] 2021-02-17 23:40:38.396 Services:28 - clicked on view services
+[INFO ] 2021-02-17 23:40:39.389 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-17 23:56:32.050 TestBase:89 - Application Started
+[INFO ] 2021-02-17 23:56:47.906 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-17 23:56:53.806 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-17 23:56:54.407 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-17 23:56:57.285 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-17 23:56:59.494 LoginPage:49 - user name entered
+[INFO ] 2021-02-17 23:57:00.767 LoginPage:54 - password entered
+[INFO ] 2021-02-17 23:57:02.525 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-17 23:57:08.558 Services:17 - Location_Allow
+[INFO ] 2021-02-17 23:57:09.776 Services:28 - clicked on view services
+[INFO ] 2021-02-17 23:57:10.776 Services:31 - clicked on Health_declaration Proceed button

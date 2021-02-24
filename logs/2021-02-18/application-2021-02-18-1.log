@@ -1,0 +1,58 @@
+[INFO ] 2021-02-18 00:08:58.819 TestBase:89 - Application Started
+[INFO ] 2021-02-18 00:09:12.596 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-18 00:09:18.548 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-18 00:09:19.161 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-18 00:09:21.953 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-18 00:09:24.371 LoginPage:49 - user name entered
+[INFO ] 2021-02-18 00:09:25.610 LoginPage:54 - password entered
+[INFO ] 2021-02-18 00:09:26.943 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-18 00:09:33.193 Services:17 - Location_Allow
+[INFO ] 2021-02-18 00:09:34.242 Services:28 - clicked on view services
+[INFO ] 2021-02-18 00:09:35.226 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-18 00:17:59.465 TestBase:89 - Application Started
+[INFO ] 2021-02-18 00:18:13.761 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-18 00:18:19.850 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-18 00:18:20.409 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-18 00:18:23.115 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-18 00:18:25.032 LoginPage:49 - user name entered
+[INFO ] 2021-02-18 00:18:26.329 LoginPage:54 - password entered
+[INFO ] 2021-02-18 00:18:27.590 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-18 00:18:33.715 Services:17 - Location_Allow
+[INFO ] 2021-02-18 00:18:35.017 Services:28 - clicked on view services
+[INFO ] 2021-02-18 00:20:36.530 TestBase:89 - Application Started
+[INFO ] 2021-02-18 00:20:50.371 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-18 00:20:56.341 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-18 00:20:56.876 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-18 00:20:59.569 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-18 00:21:02.150 LoginPage:49 - user name entered
+[INFO ] 2021-02-18 00:21:02.953 LoginPage:54 - password entered
+[INFO ] 2021-02-18 00:21:04.302 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-18 00:21:10.057 Services:17 - Location_Allow
+[INFO ] 2021-02-18 00:21:11.263 Services:28 - clicked on view services
+[INFO ] 2021-02-18 00:21:33.112 MetaCategories:27 - Treatment Tab Clicked
+[INFO ] 2021-02-18 00:21:34.944 TreatmentSubcategory:33 - GERM_SHIELD_VIEW_ORDER button clicked
+[INFO ] 2021-02-18 00:21:37.853 CommonPageToSubCategories:41 - NewRequest Tab Clicked
+[INFO ] 2021-02-18 00:25:20.247 TestBase:89 - Application Started
+[INFO ] 2021-02-18 00:25:33.274 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-18 00:25:39.203 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-18 00:25:39.853 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-18 00:25:41.925 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-18 00:25:43.964 LoginPage:49 - user name entered
+[INFO ] 2021-02-18 00:25:45.251 LoginPage:54 - password entered
+[INFO ] 2021-02-18 00:25:46.486 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-18 00:25:52.536 Services:17 - Location_Allow
+[INFO ] 2021-02-18 00:28:30.199 TestBase:89 - Application Started
+[INFO ] 2021-02-18 00:29:56.864 TestBase:89 - Application Started
+[INFO ] 2021-02-18 00:30:10.813 CommonInitialization:44 - Photo Permission Given
+[INFO ] 2021-02-18 00:30:16.729 CommonInitialization:47 - right movemnet done
+[INFO ] 2021-02-18 00:30:17.302 CommonInitialization:52 - LETS GET STARTED CLICKED
+[INFO ] 2021-02-18 00:30:20.094 CommonInitialization:57 - outer login button CLICKED
+[INFO ] 2021-02-18 00:30:22.429 LoginPage:49 - user name entered
+[INFO ] 2021-02-18 00:30:23.191 LoginPage:54 - password entered
+[INFO ] 2021-02-18 00:30:24.356 LoginPage:59 - main login button clicked
+[INFO ] 2021-02-18 00:30:39.790 Services:17 - Location_Allow
+[INFO ] 2021-02-18 00:30:40.972 Services:28 - clicked on view services
+[INFO ] 2021-02-18 00:30:41.946 Services:31 - clicked on Health_declaration Proceed button
+[INFO ] 2021-02-18 00:30:54.129 NinjaHealthDeclaration:33 - all answer completed
+[INFO ] 2021-02-18 00:30:55.104 NinjaHealthDeclaration:39 - clicked done
+[INFO ] 2021-02-18 00:30:56.437 NinjaHealthDeclaration:41 - back done

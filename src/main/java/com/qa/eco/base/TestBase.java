@@ -108,7 +108,9 @@ public class TestBase {
 		WebDriverWait wait = new WebDriverWait(driver,TestUtils.WAIT);
 		wait.until(ExpectedConditions.visibilityOf(e));
 	}
-	
+public void back() {
+	driver.navigate().back();
+}
 	public void click(MobileElement e){
 		waitForVisibility(e);
 		e.click();

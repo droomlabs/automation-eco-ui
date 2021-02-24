@@ -29,9 +29,9 @@ public class TestUtils {
 	}
 	public static String getotp(String qry) throws Exception
 	{
-	String url="jdbc:mysql://qa1.droom.in:3306/cscart_new";
-	String user="root";
-	String password="$6bK6R=a";
+	String url="";
+	String user="";
+	String password="";
 //	String qry="SELECT * FROM cscart_new.otp_verification where phone='6307641802' order by id desc limit 1";
 	
 	Class.forName("com.mysql.jdbc.Driver");
