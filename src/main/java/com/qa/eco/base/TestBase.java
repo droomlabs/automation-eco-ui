@@ -69,6 +69,7 @@ public class TestBase {
 			DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 			desiredCapabilities.setCapability("deviceName", deviceName);
 			desiredCapabilities.setCapability("udid", "emulator-5554");
+			desiredCapabilities.setCapability("udid", "172.20.8.117:5555");
 			desiredCapabilities.setCapability("unicodeKeyboard", true);
 			desiredCapabilities.setCapability("resetKeyboard", true);
 			desiredCapabilities.setCapability("platformName", platformName);
