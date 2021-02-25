@@ -34,9 +34,10 @@ public class NinjaHealthDeclaration extends Menu{
 		 return this;
 			}		
 	
-public Services pressDone() {
+public Services pressDone() throws InterruptedException {
 	click(Done);
 	utils.log().info("clicked done");
+	Thread.sleep(5000);
 	back();
 	utils.log().info("back done");
 	return new Services();

@@ -52,7 +52,7 @@ public class CommonInitialization extends TestBase{
 		utils.log().info("LETS GET STARTED CLICKED");
 		return this;
 	}
-	public LoginPage pressLoginButton1() {
+	public LoginPage pressLoginButton1() throws InterruptedException {
 		click(LoginButton1);
 		utils.log().info("outer login button CLICKED");
 		return new LoginPage();

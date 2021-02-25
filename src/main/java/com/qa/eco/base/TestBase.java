@@ -10,6 +10,8 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.PerformsTouchActions;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
@@ -66,7 +68,6 @@ public class TestBase {
 			props.load(inputStream);
 			DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 			desiredCapabilities.setCapability("deviceName", deviceName);
-			//desiredCapabilities.setCapability("udid", "63d521db0806");
 			desiredCapabilities.setCapability("udid", "emulator-5554");
 			desiredCapabilities.setCapability("unicodeKeyboard", true);
 			desiredCapabilities.setCapability("resetKeyboard", true);
@@ -111,6 +112,7 @@ public class TestBase {
 public void back() {
 	driver.navigate().back();
 }
+
 	public void click(MobileElement e){
 		waitForVisibility(e);
 		e.click();

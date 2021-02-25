@@ -1,0 +1,34 @@
+[INFO ] 2021-02-19 12:07:47.023 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-19 12:07:47.266 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-19 12:07:49.306 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-19 12:07:50.588 BrowserMenu:24 - profile button clicked
+[INFO ] 2021-02-19 12:07:51.109 BrowserMenu:26 - logout done
+[INFO ] 2021-02-19 12:07:51.440 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-02-19 12:07:51.697 EcoAdminLogin:28 - password entered
+[INFO ] 2021-02-19 12:07:52.743 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-02-19 12:07:52.818 Welcomepage:24 - successful login
+[INFO ] 2021-02-19 12:07:58.632 BrowserMenu:30 - OrderManagement button clicked
+[INFO ] 2021-02-19 12:07:59.590 OrderManagementPage:26 - RaiseNewRequest button clicked
+[INFO ] 2021-02-19 12:07:59.864 NewRequestPage:51 - Vendor selcted
+[INFO ] 2021-02-19 12:08:00.116 NewRequestPage:56 - customername entered
+[INFO ] 2021-02-19 12:08:00.423 NewRequestPage:61 - customer address entered
+[INFO ] 2021-02-19 12:08:00.671 NewRequestPage:66 - customer Pincode entered
+[INFO ] 2021-02-19 12:08:00.928 NewRequestPage:71 - customer phone entered
+[INFO ] 2021-02-19 12:08:01.196 NewRequestPage:76 - customer email entered
+[INFO ] 2021-02-19 12:08:01.498 NewRequestPage:81 - Service selcted
+[INFO ] 2021-02-19 12:08:01.524 NewRequestPage:83 - Pagescroll done
+[INFO ] 2021-02-19 12:08:06.838 NewRequestPage:88 - Vehicle selcted
+[INFO ] 2021-02-19 12:08:07.109 NewRequestPage:94 - SubCategory selcted
+[INFO ] 2021-02-19 12:08:07.286 NewRequestPage:99 - RportType selcted
+[INFO ] 2021-02-19 12:08:07.476 NewRequestPage:104 - CoverageAreaOrCapacity entered
+[INFO ] 2021-02-19 12:08:07.717 NewRequestPage:109 - SwabTest selcted
+[INFO ] 2021-02-19 12:08:07.914 NewRequestPage:114 - SwabCount entered
+[INFO ] 2021-02-19 12:08:07.928 NewRequestPage:119 - Pagescroll done
+[INFO ] 2021-02-19 12:08:08.416 NewRequestPage:127 - selectTimeslot1 selcted
+[INFO ] 2021-02-19 12:08:08.897 NewRequestPage:138 - selectTimeslot2 selcted
+[INFO ] 2021-02-19 12:08:14.087 NewRequestPage:146 - Submit button clicked
+[INFO ] 2021-02-19 12:08:18.940 OrderManagementPage:33 - dropdown visible
+[INFO ] 2021-02-19 12:08:31.302 OrderManagementPage:36 - Technician id filled
+[INFO ] 2021-02-19 12:08:37.710 OrderManagementPage:39 - technician assigned
+[INFO ] 2021-02-19 12:08:47.991 BrowserMenu:24 - profile button clicked
+[INFO ] 2021-02-19 12:08:48.646 BrowserMenu:26 - logout done
