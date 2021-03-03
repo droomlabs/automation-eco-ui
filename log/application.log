@@ -1,126 +1,101 @@
-[INFO ] 2021-02-25 00:00:06.458 TestBase:92 - Application Started
-[INFO ] 2021-02-25 00:00:25.560 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 00:00:31.302 CommonInitialization:47 - right movemnet done
-[INFO ] 2021-02-25 00:00:31.824 CommonInitialization:52 - LETS GET STARTED CLICKED
-[INFO ] 2021-02-25 00:00:33.461 CommonInitialization:57 - outer login button CLICKED
-[INFO ] 2021-02-25 00:00:35.525 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 00:00:36.734 LoginPage:54 - password entered
-[INFO ] 2021-02-25 00:00:37.798 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 00:00:43.502 Services:17 - Location_Allow
-[INFO ] 2021-02-25 00:02:51.314 TestBase:92 - Application Started
-[INFO ] 2021-02-25 00:03:04.317 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 00:03:10.091 CommonInitialization:47 - right movemnet done
-[INFO ] 2021-02-25 00:03:10.594 CommonInitialization:52 - LETS GET STARTED CLICKED
-[INFO ] 2021-02-25 00:03:12.088 CommonInitialization:57 - outer login button CLICKED
-[INFO ] 2021-02-25 00:03:14.240 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 00:03:14.979 LoginPage:54 - password entered
-[INFO ] 2021-02-25 00:03:15.984 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 00:03:28.254 Services:17 - Location_Allow
-[INFO ] 2021-02-25 00:03:29.438 Services:28 - clicked on view services
-[INFO ] 2021-02-25 00:03:30.339 Services:31 - clicked on Health_declaration Proceed button
-[INFO ] 2021-02-25 00:03:41.381 NinjaHealthDeclaration:33 - all answer completed
-[INFO ] 2021-02-25 00:03:42.276 NinjaHealthDeclaration:39 - clicked done
-[INFO ] 2021-02-25 00:03:43.938 NinjaHealthDeclaration:41 - back done
-[INFO ] 2021-02-25 00:04:00.419 Services:65 - clicked on view services
-[INFO ] 2021-02-25 00:04:08.990 MetaCategories:27 - Treatment Tab Clicked
-[INFO ] 2021-02-25 00:04:10.433 TreatmentSubcategory:33 - GERM_SHIELD_VIEW_ORDER button clicked
-[INFO ] 2021-02-25 00:10:40.166 TestBase:92 - Application Started
-[INFO ] 2021-02-25 00:10:51.274 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 00:10:56.994 CommonInitialization:47 - right movemnet done
-[INFO ] 2021-02-25 00:10:57.448 CommonInitialization:52 - LETS GET STARTED CLICKED
-[INFO ] 2021-02-25 00:10:59.809 CommonInitialization:57 - outer login button CLICKED
-[INFO ] 2021-02-25 00:11:02.407 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 00:11:03.605 LoginPage:54 - password entered
-[INFO ] 2021-02-25 00:11:04.602 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 00:11:10.307 Services:17 - Location_Allow
-[INFO ] 2021-02-25 00:11:11.481 Services:28 - clicked on view services
-[INFO ] 2021-02-25 00:17:57.519 TestBase:92 - Application Started
-[INFO ] 2021-02-25 00:18:14.041 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 00:18:19.997 CommonInitialization:47 - right movemnet done
-[INFO ] 2021-02-25 00:18:20.584 CommonInitialization:52 - LETS GET STARTED CLICKED
-[INFO ] 2021-02-25 00:18:22.823 CommonInitialization:57 - outer login button CLICKED
-[INFO ] 2021-02-25 00:18:24.403 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 00:18:25.146 LoginPage:54 - password entered
-[INFO ] 2021-02-25 00:18:26.190 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 00:20:19.763 TestBase:92 - Application Started
-[INFO ] 2021-02-25 00:20:32.008 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 00:20:37.753 CommonInitialization:47 - right movemnet done
-[INFO ] 2021-02-25 00:20:38.249 CommonInitialization:52 - LETS GET STARTED CLICKED
-[INFO ] 2021-02-25 00:20:40.466 CommonInitialization:57 - outer login button CLICKED
-[INFO ] 2021-02-25 00:20:42.634 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 00:20:43.348 LoginPage:54 - password entered
-[INFO ] 2021-02-25 00:20:44.448 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 00:20:49.699 Services:17 - Location_Allow
-[INFO ] 2021-02-25 00:20:50.829 Services:28 - clicked on view services
-[INFO ] 2021-02-25 00:20:51.740 Services:31 - clicked on Health_declaration Proceed button
-[INFO ] 2021-02-25 00:21:03.384 NinjaHealthDeclaration:33 - all answer completed
-[INFO ] 2021-02-25 00:21:04.270 NinjaHealthDeclaration:39 - clicked done
-[INFO ] 2021-02-25 00:21:09.378 NinjaHealthDeclaration:42 - back done
-[INFO ] 2021-02-25 00:21:10.537 Services:65 - clicked on view services
-[INFO ] 2021-02-25 00:21:13.803 MetaCategories:27 - Treatment Tab Clicked
-[INFO ] 2021-02-25 00:21:15.257 TreatmentSubcategory:33 - GERM_SHIELD_VIEW_ORDER button clicked
-[INFO ] 2021-02-25 00:21:19.633 CommonPageToSubCategories:41 - NewRequest Tab Clicked
-[INFO ] 2021-02-25 00:49:33.791 TestBase:93 - Application Started
-[INFO ] 2021-02-25 00:49:44.762 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 00:51:12.286 TestBase:93 - Application Started
-[INFO ] 2021-02-25 00:51:21.604 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 01:23:53.245 TestBase:93 - Application Started
-[INFO ] 2021-02-25 01:38:03.188 TestBase:93 - Application Started
-[INFO ] 2021-02-25 01:38:09.640 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 01:38:15.089 CommonInitialization:47 - right movemnet done
-[INFO ] 2021-02-25 01:38:16.137 CommonInitialization:52 - LETS GET STARTED CLICKED
-[INFO ] 2021-02-25 01:38:17.156 CommonInitialization:57 - outer login button CLICKED
-[INFO ] 2021-02-25 01:38:18.031 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:38:19.136 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:38:19.951 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:38:19.955 LoginPage:68 - error popup visible
-[INFO ] 2021-02-25 01:38:21.329 LoginPage:75 - error popup ok clicked
-[INFO ] 2021-02-25 01:38:22.660 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:38:23.386 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:38:24.182 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:38:24.184 LoginPage:68 - error popup visible
-[INFO ] 2021-02-25 01:38:25.412 LoginPage:75 - error popup ok clicked
-[INFO ] 2021-02-25 01:38:26.206 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:38:26.968 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:38:27.770 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:38:27.771 LoginPage:68 - error popup visible
-[INFO ] 2021-02-25 01:38:29.001 LoginPage:75 - error popup ok clicked
-[INFO ] 2021-02-25 01:38:29.779 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:38:30.441 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:38:31.181 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:38:33.557 Services:17 - Location_Allow
-[INFO ] 2021-02-25 01:39:41.792 TestBase:93 - Application Started
-[INFO ] 2021-02-25 01:39:47.732 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 01:39:53.292 CommonInitialization:47 - right movemnet done
-[INFO ] 2021-02-25 01:39:53.955 CommonInitialization:52 - LETS GET STARTED CLICKED
-[INFO ] 2021-02-25 01:39:56.503 CommonInitialization:57 - outer login button CLICKED
-[INFO ] 2021-02-25 01:39:58.290 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:39:59.976 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:40:00.929 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:40:00.934 LoginPage:68 - error popup visible
-[INFO ] 2021-02-25 01:40:03.896 LoginPage:75 - error popup ok clicked
-[INFO ] 2021-02-25 01:40:05.433 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:40:06.840 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:40:07.884 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:40:07.888 LoginPage:68 - error popup visible
-[INFO ] 2021-02-25 01:40:09.384 LoginPage:75 - error popup ok clicked
-[INFO ] 2021-02-25 01:40:10.817 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:40:12.295 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:40:13.328 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:40:13.334 LoginPage:68 - error popup visible
-[INFO ] 2021-02-25 01:40:15.751 LoginPage:75 - error popup ok clicked
-[INFO ] 2021-02-25 01:40:16.680 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:40:18.148 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:40:19.212 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:40:22.455 Services:17 - Location_Allow
-[INFO ] 2021-02-25 01:40:23.493 Menu:16 - clicked on Hamburgermenu
-[INFO ] 2021-02-25 01:40:25.915 SideMenu:18 - logout done
-[INFO ] 2021-02-25 01:40:38.705 CommonInitialization:44 - Photo Permission Given
-[INFO ] 2021-02-25 01:40:44.381 CommonInitialization:47 - right movemnet done
-[INFO ] 2021-02-25 01:40:44.955 CommonInitialization:52 - LETS GET STARTED CLICKED
-[INFO ] 2021-02-25 01:40:46.172 CommonInitialization:57 - outer login button CLICKED
-[INFO ] 2021-02-25 01:40:48.716 LoginPage:49 - user name entered
-[INFO ] 2021-02-25 01:40:49.199 LoginPage:54 - password entered
-[INFO ] 2021-02-25 01:40:50.248 LoginPage:59 - main login button clicked
-[INFO ] 2021-02-25 01:40:54.141 Services:17 - Location_Allow
-[INFO ] 2021-02-25 01:40:55.284 Services:28 - clicked on view services
+[INFO ] 2021-03-02 19:55:15.551 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-03-02 19:55:15.943 EcoAdminLogin:28 - password entered
+[INFO ] 2021-03-02 19:55:21.318 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-03-02 19:55:21.382 Welcomepage:24 - successful login
+[INFO ] 2021-03-02 19:55:27.449 BrowserMenu:30 - OrderManagement button clicked
+[INFO ] 2021-03-02 19:55:28.986 OrderManagementPage:27 - RaiseNewRequest button clicked
+[INFO ] 2021-03-02 19:55:29.422 NewRequestPage:52 - Vendor selcted
+[INFO ] 2021-03-02 19:55:29.715 NewRequestPage:57 - customername entered
+[INFO ] 2021-03-02 19:55:29.981 NewRequestPage:62 - customer address entered
+[INFO ] 2021-03-02 19:55:30.241 NewRequestPage:67 - customer Pincode entered
+[INFO ] 2021-03-02 19:55:30.517 NewRequestPage:72 - customer phone entered
+[INFO ] 2021-03-02 19:55:30.865 NewRequestPage:77 - customer email entered
+[INFO ] 2021-03-02 19:55:31.180 NewRequestPage:82 - Service selcted
+[INFO ] 2021-03-02 19:55:31.204 NewRequestPage:84 - Pagescroll done
+[INFO ] 2021-03-02 19:55:36.479 NewRequestPage:89 - Vehicle selcted
+[INFO ] 2021-03-02 19:55:38.128 NewRequestPage:95 - SubCategory selcted
+[INFO ] 2021-03-02 19:55:38.372 NewRequestPage:100 - RportType selcted
+[INFO ] 2021-03-02 19:55:38.607 NewRequestPage:105 - CoverageAreaOrCapacity entered
+[INFO ] 2021-03-02 19:55:38.923 NewRequestPage:110 - SwabTest selcted
+[INFO ] 2021-03-02 19:55:39.250 NewRequestPage:115 - SwabCount entered
+[INFO ] 2021-03-02 19:55:39.265 NewRequestPage:120 - Pagescroll done
+[INFO ] 2021-03-02 19:55:39.933 NewRequestPage:128 - selectTimeslot1 selcted
+[INFO ] 2021-03-02 19:55:40.612 NewRequestPage:139 - selectTimeslot2 selcted
+[INFO ] 2021-03-02 19:55:47.577 NewRequestPage:147 - Submit button clicked
+[INFO ] 2021-03-02 20:04:21.954 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-03-02 20:04:22.218 EcoAdminLogin:28 - password entered
+[INFO ] 2021-03-02 20:04:30.955 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-03-02 20:04:31.212 Welcomepage:24 - successful login
+[INFO ] 2021-03-02 20:04:37.166 BrowserMenu:30 - OrderManagement button clicked
+[INFO ] 2021-03-02 20:04:38.346 OrderManagementPage:27 - RaiseNewRequest button clicked
+[INFO ] 2021-03-02 20:04:38.664 NewRequestPage:52 - Vendor selcted
+[INFO ] 2021-03-02 20:04:38.919 NewRequestPage:57 - customername entered
+[INFO ] 2021-03-02 20:04:39.134 NewRequestPage:62 - customer address entered
+[INFO ] 2021-03-02 20:04:39.350 NewRequestPage:67 - customer Pincode entered
+[INFO ] 2021-03-02 20:04:39.575 NewRequestPage:72 - customer phone entered
+[INFO ] 2021-03-02 20:04:39.828 NewRequestPage:77 - customer email entered
+[INFO ] 2021-03-02 20:04:40.072 NewRequestPage:82 - Service selcted
+[INFO ] 2021-03-02 20:04:40.098 NewRequestPage:84 - Pagescroll done
+[INFO ] 2021-03-02 20:04:45.368 NewRequestPage:89 - Vehicle selcted
+[INFO ] 2021-03-02 20:04:45.759 NewRequestPage:95 - SubCategory selcted
+[INFO ] 2021-03-02 20:04:45.953 NewRequestPage:100 - RportType selcted
+[INFO ] 2021-03-02 20:04:46.162 NewRequestPage:105 - CoverageAreaOrCapacity entered
+[INFO ] 2021-03-02 20:04:46.425 NewRequestPage:110 - SwabTest selcted
+[INFO ] 2021-03-02 20:04:46.656 NewRequestPage:115 - SwabCount entered
+[INFO ] 2021-03-02 20:04:46.674 NewRequestPage:120 - Pagescroll done
+[INFO ] 2021-03-02 20:04:47.435 NewRequestPage:128 - selectTimeslot1 selcted
+[INFO ] 2021-03-02 20:04:47.954 NewRequestPage:139 - selectTimeslot2 selcted
+[INFO ] 2021-03-02 20:04:54.529 NewRequestPage:147 - Submit button clicked
+[INFO ] 2021-03-02 20:08:11.159 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-03-02 20:08:11.420 EcoAdminLogin:28 - password entered
+[INFO ] 2021-03-02 20:08:18.488 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-03-02 20:08:18.573 Welcomepage:24 - successful login
+[INFO ] 2021-03-02 20:08:24.655 BrowserMenu:30 - OrderManagement button clicked
+[INFO ] 2021-03-02 20:08:26.257 OrderManagementPage:27 - RaiseNewRequest button clicked
+[INFO ] 2021-03-02 20:08:26.669 NewRequestPage:52 - Vendor selcted
+[INFO ] 2021-03-02 20:08:27.079 NewRequestPage:57 - customername entered
+[INFO ] 2021-03-02 20:08:27.539 NewRequestPage:62 - customer address entered
+[INFO ] 2021-03-02 20:08:27.798 NewRequestPage:67 - customer Pincode entered
+[INFO ] 2021-03-02 20:08:28.092 NewRequestPage:72 - customer phone entered
+[INFO ] 2021-03-02 20:08:28.456 NewRequestPage:77 - customer email entered
+[INFO ] 2021-03-02 20:08:28.869 NewRequestPage:82 - Service selcted
+[INFO ] 2021-03-02 20:08:28.886 NewRequestPage:84 - Pagescroll done
+[INFO ] 2021-03-02 20:08:34.162 NewRequestPage:89 - Vehicle selcted
+[INFO ] 2021-03-02 20:08:34.857 NewRequestPage:95 - SubCategory selcted
+[INFO ] 2021-03-02 20:08:35.090 NewRequestPage:100 - RportType selcted
+[INFO ] 2021-03-02 20:08:35.336 NewRequestPage:105 - CoverageAreaOrCapacity entered
+[INFO ] 2021-03-02 20:08:35.600 NewRequestPage:110 - SwabTest selcted
+[INFO ] 2021-03-02 20:08:35.804 NewRequestPage:115 - SwabCount entered
+[INFO ] 2021-03-02 20:08:35.817 NewRequestPage:120 - Pagescroll done
+[INFO ] 2021-03-02 20:08:36.429 NewRequestPage:128 - selectTimeslot1 selcted
+[INFO ] 2021-03-02 20:08:36.979 NewRequestPage:139 - selectTimeslot2 selcted
+[INFO ] 2021-03-02 20:08:44.702 NewRequestPage:147 - Submit button clicked
+[INFO ] 2021-03-02 20:21:55.649 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-03-02 20:21:55.901 EcoAdminLogin:28 - password entered
+[INFO ] 2021-03-02 20:21:58.316 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-03-02 20:21:58.384 Welcomepage:24 - successful login
+[INFO ] 2021-03-02 20:22:03.896 BrowserMenu:30 - OrderManagement button clicked
+[INFO ] 2021-03-02 20:22:05.047 OrderManagementPage:27 - RaiseNewRequest button clicked
+[INFO ] 2021-03-02 20:22:05.404 NewRequestPage:52 - Vendor selcted
+[INFO ] 2021-03-02 20:22:05.693 NewRequestPage:57 - customername entered
+[INFO ] 2021-03-02 20:22:06.006 NewRequestPage:62 - customer address entered
+[INFO ] 2021-03-02 20:22:06.299 NewRequestPage:67 - customer Pincode entered
+[INFO ] 2021-03-02 20:22:06.562 NewRequestPage:72 - customer phone entered
+[INFO ] 2021-03-02 20:22:06.909 NewRequestPage:77 - customer email entered
+[INFO ] 2021-03-02 20:22:07.340 NewRequestPage:82 - Service selcted
+[INFO ] 2021-03-02 20:22:07.364 NewRequestPage:84 - Pagescroll done
+[INFO ] 2021-03-02 20:22:12.653 NewRequestPage:89 - Vehicle selcted
+[INFO ] 2021-03-02 20:22:12.998 NewRequestPage:95 - SubCategory selcted
+[INFO ] 2021-03-02 20:22:13.251 NewRequestPage:100 - RportType selcted
+[INFO ] 2021-03-02 20:22:13.504 NewRequestPage:105 - CoverageAreaOrCapacity entered
+[INFO ] 2021-03-02 20:22:13.792 NewRequestPage:110 - SwabTest selcted
+[INFO ] 2021-03-02 20:22:14.028 NewRequestPage:115 - SwabCount entered
+[INFO ] 2021-03-02 20:22:14.039 NewRequestPage:120 - Pagescroll done
+[INFO ] 2021-03-02 20:22:14.599 NewRequestPage:128 - selectTimeslot1 selcted
+[INFO ] 2021-03-02 20:22:15.102 NewRequestPage:139 - selectTimeslot2 selcted
+[INFO ] 2021-03-02 20:22:20.904 NewRequestPage:147 - Submit button clicked
+[INFO ] 2021-03-02 20:22:25.290 OrderManagementPage:35 - dropdown visible
+[INFO ] 2021-03-02 20:22:38.188 OrderManagementPage:38 - Technician id filled
+[INFO ] 2021-03-02 20:22:45.569 OrderManagementPage:41 - technician assigned
+[INFO ] 2021-03-02 20:22:55.800 BrowserMenu:24 - profile button clicked
+[INFO ] 2021-03-02 20:22:56.425 BrowserMenu:26 - logout done

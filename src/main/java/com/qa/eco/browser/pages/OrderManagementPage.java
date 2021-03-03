@@ -1,5 +1,6 @@
 package com.qa.eco.browser.pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -10,11 +11,12 @@ import com.qa.eco.pages.Services;
 import com.qa.utils.TestUtils;
 
 public class OrderManagementPage extends BrowserMenu {
+	public NewRequestPage NRP = new NewRequestPage();
 	
 	
 	@FindBy(xpath="//input[@value='Raise New Request']") WebElement RaiseNewRequest;
 	@FindBy(xpath="/html/body/div[1]/div/section[2]/div[1]/div/div/div[2]") WebElement SucessMsg;
-	@FindBy(xpath="//*[@class='assign_vendor_tech' and @value=1]") WebElement AssignTechnician;
+	//@FindBy(xpath="//*[@class='assign_vendor_tech' and @order="+n.Order_id+"]") ;
 	@FindBy(xpath="//span[@id='select2-assignee_id-container']") WebElement AssignTechniciandropdown;
 	@FindBy(xpath="/html/body/span/span/span[1]/input") WebElement AssignTechniciansearch;
 	@FindBy(xpath="/html/body/span/span/span[2]/ul/li[1]") WebElement Technician;
@@ -27,7 +29,7 @@ public class OrderManagementPage extends BrowserMenu {
 		return new NewRequestPage();
 	}
 	public  BrowserMenu assignTechnician(String Tech_id) throws Exception {
-		
+		WebElement AssignTechnician=driver2.findElement(By.xpath("//a[@class='assign_vendor_tech'][@order="+NRP.Order_id+"]"));
 		clickb(AssignTechnician);
 		clickb(AssignTechniciandropdown);
 		utils.log().info("dropdown visible");

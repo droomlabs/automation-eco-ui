@@ -80,6 +80,7 @@ public class EcoAdminPanelOrderCreationTest extends TestBaseBrowser{
 	  NRP.selectTimeslot1("25/2/2021");
 	  NRP.selectTimeslot2("26/2/2021");
 	  OMP=NRP.pressSubmit();
+	 OMP.NRP=NRP;
 	  browsermenu=OMP.assignTechnician("2282");
 	  
   }

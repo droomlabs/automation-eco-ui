@@ -13,7 +13,7 @@ import com.qa.utils.TestUtils;
 
 public class NewRequestPage extends BrowserMenu {
 	
-	
+	 String Order_id;
 	
 	@FindBy(id="vendor_id") WebElement Vendor;
 	@FindBy(id="cust_name") WebElement Customer;
@@ -42,7 +42,8 @@ public class NewRequestPage extends BrowserMenu {
 	//@FindBy(xpath="/html/body/div[5]/ul/li[1]/div/div[1]/table/tbody/tr/td") WebElement date2;
 	@FindBy(xpath="/html/body/div[5]/ul/li[1]/div/div[2]/table/tbody/tr/td/span")  List<WebElement> list_AllMonthToBook2;
 	@FindBy(xpath="//*[@id=\"new_order\"]/div/div[29]/input[2]") WebElement Submit;
-	
+	//@FindBy(xpath="//div[@class='modal-body'][@class='_14p'][@class='thin']") WebElement Order_Id;
+	@FindBy(xpath="//div[@class='modal-body _14p thin']") WebElement Order_Id;
 	TestUtils utils = new TestUtils();
 		
 	
@@ -144,6 +145,9 @@ public class NewRequestPage extends BrowserMenu {
 	public OrderManagementPage pressSubmit() {
 		clickb(Submit);
 		utils.log().info("Submit button clicked");
+		String text = Order_Id.getText();
+		String[] arrOfStr =   text.split("-", 2);
+		Order_id=arrOfStr[1];
 		return new OrderManagementPage();
 		
 	}
