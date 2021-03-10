@@ -32,7 +32,7 @@ public class TestUtils {
 	String url="";
 	String user="";
 	String password="";
-//	String qry="SELECT * FROM cscart_new.otp_verification where phone='6307641802' order by id desc limit 1";
+//	String qry="SELECT * FROM . where phone='6307641802' order by id desc limit 1";
 	
 	Class.forName("com.mysql.jdbc.Driver");
 	Connection connection = DriverManager.getConnection(url, user, password);
@@ -41,6 +41,7 @@ public class TestUtils {
 	ResultSet rs = statement.executeQuery(qry);
 	rs.next();
 	String otp = rs.getString("code");
+	
 	//System.out.println(otp);
 	//int otpNumber = Integer.parseInt(otp);
    	//System.out.println(otp);
