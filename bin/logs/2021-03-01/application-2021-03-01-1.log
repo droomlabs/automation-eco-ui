@@ -1,0 +1,48 @@
+[INFO ] 2021-03-01 18:21:52.338 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-03-01 18:21:52.687 EcoAdminLogin:28 - password entered
+[INFO ] 2021-03-01 18:22:01.149 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-03-01 18:22:01.263 Welcomepage:24 - successful login
+[INFO ] 2021-03-01 18:22:09.792 BrowserMenu:30 - OrderManagement button clicked
+[INFO ] 2021-03-01 18:22:11.208 OrderManagementPage:27 - RaiseNewRequest button clicked
+[INFO ] 2021-03-01 18:22:11.814 NewRequestPage:52 - Vendor selcted
+[INFO ] 2021-03-01 18:22:12.118 NewRequestPage:57 - customername entered
+[INFO ] 2021-03-01 18:22:12.426 NewRequestPage:62 - customer address entered
+[INFO ] 2021-03-01 18:22:12.717 NewRequestPage:67 - customer Pincode entered
+[INFO ] 2021-03-01 18:22:13.040 NewRequestPage:72 - customer phone entered
+[INFO ] 2021-03-01 18:22:13.382 NewRequestPage:77 - customer email entered
+[INFO ] 2021-03-01 18:22:13.830 NewRequestPage:82 - Service selcted
+[INFO ] 2021-03-01 18:22:13.859 NewRequestPage:84 - Pagescroll done
+[INFO ] 2021-03-01 18:22:19.255 NewRequestPage:89 - Vehicle selcted
+[INFO ] 2021-03-01 18:22:19.599 NewRequestPage:95 - SubCategory selcted
+[INFO ] 2021-03-01 18:22:19.833 NewRequestPage:100 - RportType selcted
+[INFO ] 2021-03-01 18:22:20.132 NewRequestPage:105 - CoverageAreaOrCapacity entered
+[INFO ] 2021-03-01 18:22:20.476 NewRequestPage:110 - SwabTest selcted
+[INFO ] 2021-03-01 18:22:20.728 NewRequestPage:115 - SwabCount entered
+[INFO ] 2021-03-01 18:22:20.759 NewRequestPage:120 - Pagescroll done
+[INFO ] 2021-03-01 18:22:21.489 NewRequestPage:128 - selectTimeslot1 selcted
+[INFO ] 2021-03-01 18:22:22.245 NewRequestPage:139 - selectTimeslot2 selcted
+[INFO ] 2021-03-01 18:22:28.775 NewRequestPage:147 - Submit button clicked
+[INFO ] 2021-03-01 18:24:33.218 EcoAdminLogin:23 - user name entered
+[INFO ] 2021-03-01 18:24:33.464 EcoAdminLogin:28 - password entered
+[INFO ] 2021-03-01 18:24:40.526 EcoAdminLogin:33 - main login button clicked
+[INFO ] 2021-03-01 18:24:40.601 Welcomepage:24 - successful login
+[INFO ] 2021-03-01 18:24:46.771 BrowserMenu:30 - OrderManagement button clicked
+[INFO ] 2021-03-01 18:24:48.054 OrderManagementPage:27 - RaiseNewRequest button clicked
+[INFO ] 2021-03-01 18:24:48.391 NewRequestPage:52 - Vendor selcted
+[INFO ] 2021-03-01 18:24:48.704 NewRequestPage:57 - customername entered
+[INFO ] 2021-03-01 18:24:48.995 NewRequestPage:62 - customer address entered
+[INFO ] 2021-03-01 18:24:49.257 NewRequestPage:67 - customer Pincode entered
+[INFO ] 2021-03-01 18:24:49.544 NewRequestPage:72 - customer phone entered
+[INFO ] 2021-03-01 18:24:49.889 NewRequestPage:77 - customer email entered
+[INFO ] 2021-03-01 18:24:50.201 NewRequestPage:82 - Service selcted
+[INFO ] 2021-03-01 18:24:50.215 NewRequestPage:84 - Pagescroll done
+[INFO ] 2021-03-01 18:24:55.519 NewRequestPage:89 - Vehicle selcted
+[INFO ] 2021-03-01 18:24:55.883 NewRequestPage:95 - SubCategory selcted
+[INFO ] 2021-03-01 18:24:56.095 NewRequestPage:100 - RportType selcted
+[INFO ] 2021-03-01 18:24:56.354 NewRequestPage:105 - CoverageAreaOrCapacity entered
+[INFO ] 2021-03-01 18:24:56.661 NewRequestPage:110 - SwabTest selcted
+[INFO ] 2021-03-01 18:24:56.896 NewRequestPage:115 - SwabCount entered
+[INFO ] 2021-03-01 18:24:56.916 NewRequestPage:120 - Pagescroll done
+[INFO ] 2021-03-01 18:24:57.610 NewRequestPage:128 - selectTimeslot1 selcted
+[INFO ] 2021-03-01 18:24:58.262 NewRequestPage:139 - selectTimeslot2 selcted
+[INFO ] 2021-03-01 18:25:04.360 NewRequestPage:147 - Submit button clicked

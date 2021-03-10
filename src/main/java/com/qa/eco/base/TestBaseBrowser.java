@@ -66,11 +66,13 @@ public class TestBaseBrowser {
 			String browserName = props.getProperty("browser");
 			
 			if(browserName.equals("chrome")){
-				System.setProperty("webdriver.chrome.driver", "D:\\java\\DRIVER\\chromedriver_win32\\chromedriver.exe");	
+				//System.setProperty("webdriver.chrome.driver", "D:\\java\\DRIVER\\chromedriver_win32\\chromedriver.exe");	
+				System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\drivers\\windows\\chromedriver.exe");
 				driver2 = new ChromeDriver();
 			}
 			else if(browserName.equals("FF")){
-				System.setProperty("webdriver.gecko.driver", "D:\\java\\DRIVER\\geckodriver-v0.26.0-win64\\geckodriver-v0.26.0-win64.exe");	
+				//System.setProperty("webdriver.gecko.driver", "D:\\java\\DRIVER\\geckodriver-v0.26.0-win64\\geckodriver-v0.26.0-win64.exe");	
+				System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\drivers\\windows\\geckodriver.exe");
 				driver2 = new FirefoxDriver(); 
 			}
 			
