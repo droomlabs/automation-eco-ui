@@ -7,6 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.sql.RowIdLifetime;
 
+import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -66,8 +67,9 @@ public static void setCellData(String Result,  int RowNum, int ColNum,String Pat
 		try{
 
 			Row  = ExcelWSheet.getRow(RowNum);
-
-		Cell = Row.getCell(ColNum, Row.RETURN_BLANK_AS_NULL);
+			
+			
+		Cell  = Row.getCell(ColNum, MissingCellPolicy.RETURN_BLANK_AS_NULL);
 
 		if (Cell == null) {
 
