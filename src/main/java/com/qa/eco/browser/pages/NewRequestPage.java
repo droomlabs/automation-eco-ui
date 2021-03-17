@@ -9,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import com.qa.eco.base.TestBase;
 import com.qa.eco.pages.LoginPage;
 import com.qa.eco.pages.Services;
+import com.qa.utils.ReadExcel;
 import com.qa.utils.TestUtils;
 
 public class NewRequestPage extends BrowserMenu {
@@ -148,6 +149,14 @@ public class NewRequestPage extends BrowserMenu {
 		String text = Order_Id.getText();
 		String[] arrOfStr =   text.split("-", 2);
 		Order_id=arrOfStr[1];
+		try {
+			ReadExcel.setExcelFile("src\\test\\resources\\excelfiles\\DataForAPP.xlsx", "Sheet1");
+			System.out.println(Order_id);
+			ReadExcel.setCellData(Order_id, 0, 1, "src\\test\\resources\\excelfiles\\DataForAPP.xlsx");
+    		
+		} catch (Exception e) {
+						e.printStackTrace();
+		}
 		return new OrderManagementPage();
 		
 	}

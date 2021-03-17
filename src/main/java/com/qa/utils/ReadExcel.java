@@ -32,9 +32,7 @@ public static void setExcelFile(String Path,String SheetName) throws Exception {
 
 
 		ExcelWBook = new XSSFWorkbook(ExcelFile);
-
 		ExcelWSheet = ExcelWBook.getSheet(SheetName);
-
 		} catch (Exception e){
 
 			throw (e);
@@ -65,12 +63,11 @@ public static String getCellData(int RowNum, int ColNum) throws Exception{
 public static void setCellData(String Result,  int RowNum, int ColNum,String Path) throws Exception	{
 
 		try{
-
-			Row  = ExcelWSheet.getRow(RowNum);
 			
-			
+		Row  = ExcelWSheet.getRow(RowNum);		
 		Cell  = Row.getCell(ColNum, MissingCellPolicy.RETURN_BLANK_AS_NULL);
-
+		System.out.println(Cell);
+		System.out.println("3");
 		if (Cell == null) {
 
 			Cell = Row.createCell(ColNum);
