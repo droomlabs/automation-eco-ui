@@ -105,7 +105,7 @@ public class GermShieldTreatmeElevatorTests extends TestBase{
       cnrp.pressAcceptMark();
       cptp=cnrp.pressYesForOrderAccept();
       cptp.pressSearchButton();
-      cptp.enterSearchText("179819");
+      cptp.enterSearchText();
       cptp.pressStartForLocation();
       cptp.pressReadyToStart();
       cptp.pressReachedLocation();

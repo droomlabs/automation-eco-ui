@@ -6,6 +6,7 @@ import org.openqa.selenium.Dimension;
 
 import com.qa.eco.base.CommonInitialization;
 import com.qa.eco.base.TestBase;
+import com.qa.utils.ReadExcel;
 import com.qa.utils.TestUtils;
 
 import io.appium.java_client.MobileElement;
@@ -16,6 +17,7 @@ import io.appium.java_client.touch.offset.PointOption;
 
 public class CommonPageToSubCategories extends Menu{
 	TestUtils utils = new TestUtils();
+	String Order_id;
 		
 	@AndroidFindBy  (id = "in.droom.eco:id/search_button") private MobileElement Search_Button;	
 	@AndroidFindBy  (id = "in.droom.eco:id/search_src_text") private MobileElement Search_Text_Button;
@@ -30,7 +32,14 @@ public class CommonPageToSubCategories extends Menu{
 		utils.log().info("Search_Button Clicked");
 		return this;
 	}
-	public CommonPageToSubCategories enterSearchText(String Order_id) {
+	public CommonPageToSubCategories enterSearchText() {
+		try {
+			ReadExcel.setExcelFile("src\\test\\resources\\excelfiles\\DataForAPP.xlsx", "Sheet1");
+		Order_id= ReadExcel.getCellData(0, 1);
+    		
+		} catch (Exception e) {
+						e.printStackTrace();
+		}
 		sendKeys(Search_Text_Button,Order_id);
 		utils.log().info("order id searched");
 		return this;
